@@ -1,13 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
-body{
-    margin: 0px 0px 0px 0px;
-    padding: 1000px 0px 0px 0px;
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
 .footer{
     background-color: #424242;
     width: 100%;
@@ -16,7 +9,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.contenedor {
+.contenedorFooter {
     display: grid;
     grid-template-columns: repeat(15, 1fr);  
 }

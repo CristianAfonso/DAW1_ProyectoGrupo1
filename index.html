@@ -1,9 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
+    <link rel="stylesheet" href="../Estilos/footer.css">
+    <link rel="stylesheet" href="../Estilos/nav.css">
+    <link rel="stylesheet" href="../Estilos/Main.css">
     <meta charset="UTF-8">
     <title>Alta fit</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function(){
+            $('.nav').load("./Templates/nav.html");
+            $('.footer').load("./Templates/footer.html");
+        });
+    </script>
 </head>
 <body>
+    <div class="nav"></div>
+    <div class="footer"></div>
 </body>
 </html>
