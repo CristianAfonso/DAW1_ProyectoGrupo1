@@ -32,6 +32,57 @@ p{
     grid-template-rows: repeat(10 , 1fr);
 }
 
+.Insc{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    background-color: #424242;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(10 , 1fr);
+}
+
+.insc1{
+    color: white;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row: 3;
+}
+
+.rect2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.email{
+    padding: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 700px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 6;
+}
+
+.bnt{
+    background-color: #e03315;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 6;
+}
+
 .tret3{
     text-align: center;
     grid-column: 3;
