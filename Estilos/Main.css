@@ -5,4 +5,57 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    margin: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Imagenes/Front View.png");
+}
+
+.Intro{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(10 , 1fr);
+}
+
+.tret3{
+    text-align: center;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.rect{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+.tret1{
+    text-align: center;
+    grid-column: 2/5;
+    grid-row: 6;
+    font-size: 1.5em;
+}
+
+.tret2{
+    text-align: center;
+    grid-column: 2/5;
+    grid-row: 8;
+    font-size: 1.5em;
 }
