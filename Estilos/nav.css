@@ -34,21 +34,41 @@
     grid-column: 10;
     grid-row: 1;
 }
+
+#primero:hover{
+    color: #e03315;
+}
+
 #segundo {
     margin: 0.75em 0px 0px 0px;
     grid-column: 11;
     grid-row: 1;
 }
+
+#segundo:hover{
+    color: #e03315;
+}
+
 #tercero {
     margin: 0.75em 0px 0px 0px;
     grid-column: 12;
     grid-row: 1;
 }
+
+#tercero:hover{
+    color: #e03315;
+}
+
 #cuarto {
     margin: 0.75em 0px 0px 0px;
     grid-column: 13;
     grid-row: 1;
 }
+
+#cuarto:hover{
+    color: #e03315;
+}
+
 #quinto {
     margin: 0.75em 0px 0px 0px;
     grid-column: 14;
@@ -56,7 +76,9 @@
     padding-right: 10px;
 }
 
-
+#quinto:hover{
+    color: #e03315;
+}
 
 
 
