@@ -12,6 +12,14 @@ h2{
     font-family: 'Oswald', sans-serif;
     font-size: 3em;
     margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    padding: 0px;
 }
 
 p{
@@ -21,7 +29,34 @@ p{
 .home{
     height: 100vh;
     width: 100%;
-    background-image: url("../Imagenes/Front View.png");
+    background-image: url("../Imagenes/Front_view_No.png");
+}
+
+.contHome{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.prueba1{
+    color: #ffffff;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.prueba2{
+    color: #ffffff;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 5;
+}
+
+.rect3{
+    margin: auto;
+    display: block;
+    grid-column: 3;
+    grid-row: 4;
 }
 
 .Intro{
@@ -58,7 +93,7 @@ p{
 }
 
 .email{
-    padding: 0px;
+    padding: 10px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -67,6 +102,13 @@ p{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row: 6;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
 .bnt{
@@ -76,24 +118,33 @@ p{
     margin-left: auto;
     margin-right: auto;
     height: 60px;
-    width: 350px;
+    width: 200px;
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 4;
     grid-row: 6;
+    border: none;
+}
+
+.inb{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
 }
 
 .tret3{
     text-align: center;
-    grid-column: 3;
+    grid-column-start: 1;
+    grid-column-end: 6;
     grid-row: 3;
 }
 
 .rect{
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    grid-column: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
     grid-row: 4;
 }
 

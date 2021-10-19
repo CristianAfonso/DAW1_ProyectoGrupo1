@@ -49,34 +49,34 @@ a {
     grid-row: 2;
     text-align: left;
 }
-.link5{
+#link5{
     grid-column: 3;
     grid-row: 3;
-    text-align: center;
 }
-.link6{
+#link6{
     grid-column: 4;
     grid-row: 3;
-    text-align: center;
 }
-.link7{
+#link7{
     grid-column: 5;
     grid-row: 3;
-    text-align: center;
 }
-.link8{
+#link8{
     grid-column: 6;
     grid-row: 3;
-    text-align: center;
 }
-.link9{
+#link9{
     grid-column: 7;
     grid-row: 3;
-    text-align: center;
+
 }
 
 .copy{
     color: #ffffff;
     text-align: center;
     padding: 10px 0px 10px 0px;
+}
+
+.link{
+    text-align: center;
 }
