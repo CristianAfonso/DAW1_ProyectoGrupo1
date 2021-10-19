@@ -18,37 +18,37 @@
     text-align: right;
 }
 
-a {
+.trext {
     text-decoration: none;
     color: #ffffff;
 }
 
-.logo {
+#logo {
     grid-column: 2;
     grid-row: 1;
 }
 
-.primero {
+#primero {
     margin: 0.75em 0px 0px 0px;
     grid-column: 10;
     grid-row: 1;
 }
-.segundo {
+#segundo {
     margin: 0.75em 0px 0px 0px;
     grid-column: 11;
     grid-row: 1;
 }
-.tercero {
+#tercero {
     margin: 0.75em 0px 0px 0px;
     grid-column: 12;
     grid-row: 1;
 }
-.cuarto {
+#cuarto {
     margin: 0.75em 0px 0px 0px;
     grid-column: 13;
     grid-row: 1;
 }
-.quinto {
+#quinto {
     margin: 0.75em 0px 0px 0px;
     grid-column: 14;
     grid-row: 1;
