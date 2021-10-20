@@ -1,6 +1,6 @@
 .container {
-    column-width: 250px;
-    column-gap: 20px;
+    column-width: 350px;
+    column-gap: 80px;
 }
 h1,h2,h3{
     text-align: center;
@@ -13,8 +13,8 @@ h1,h2,h3{
     page-break-inside: avoid;
     background-color: rgb(207, 232, 220);
     border: 2px solid rgb(79, 185, 227);
-    padding: 10px;
-    margin: 0 0 1em 0;
+    padding: 20px;
+    margin: 0 0 2em 0;
 }
 
 .tarifa2 {
@@ -22,8 +22,8 @@ h1,h2,h3{
     page-break-inside: avoid;
     background-color: rgb(207, 232, 220);
     border: 2px solid rgb(79, 185, 227);
-    padding: 10px;
-    margin: 0 0 1em 0;
+    padding: 20px;
+    margin: 0 0 2em 0;
 }
 
 .tarifa3 {
@@ -31,6 +31,6 @@ h1,h2,h3{
     page-break-inside: avoid;
     background-color: rgb(207, 232, 220);
     border: 2px solid rgb(79, 185, 227);
-    padding: 10px;
-    margin: 0 0 1em 0;
+    padding: 20px;
+    margin: 0 0 2em 0;
 }

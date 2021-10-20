@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.navigation{
+    position: fixed;
+    background-color: #424242;
+    width: 100%;
+    height: 10%;
+    box-shadow: 0px 15px 10px -15px #111;
+    font-size: 1.75em;
+    font-family: 'Oswald', sans-serif;
+    z-index: 1;
+}
+
+.contenedorNavigation {
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: right;
+}
+
+.trext {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#logo {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#primero {
+    margin: 0.75em 0px 0px 0px;
+    grid-column: 10;
+    grid-row: 1;
+}
+
+#primero:hover{
+    color: #e03315;
+}
+
+#segundo {
+    margin: 0.75em 0px 0px 0px;
+    grid-column: 11;
+    grid-row: 1;
+}
+
+#segundo:hover{
+    color: #e03315;
+}
+
+#tercero {
+    margin: 0.75em 0px 0px 0px;
+    grid-column: 12;
+    grid-row: 1;
+}
+
+#tercero:hover{
+    color: #e03315;
+}
+
+#cuarto {
+    margin: 0.75em 0px 0px 0px;
+    grid-column: 13;
+    grid-row: 1;
+}
+
+#cuarto:hover{
+    color: #e03315;
+}
+
+#quinto {
+    margin: 0.75em 0px 0px 0px;
+    grid-column: 14;
+    grid-row: 1;
+    padding-right: 10px;
+}
+
+#quinto:hover{
+    color: #e03315;
+}
+
+
+
+
+
+
