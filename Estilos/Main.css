@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+/* Zona principal del home page  */
+#home{
+    height: 100vh;
+    width: 100%;
+    background-image: url("../Imagenes/Front_view_No.png");
+}
+
+#contHome{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#prueba1{
+    color: #ffffff;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#rect3{
+    margin: 0px auto 0px auto;
+    display: block;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#prueba2{
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+/* Zona de la introducción de la página */
+#Intro{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(10 , 1fr);
+}
+
+#tret3{
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: 3;
+}
+
+#rect{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row: 4;
+}
+
+#tret1{
+    text-align: center;
+    grid-column: 2/5;
+    grid-row: 6;
+    font-size: 1.5em;
+}
+
+#tret2{
+    text-align: center;
+    grid-column: 2/5;
+    grid-row: 8;
+    font-size: 1.5em;
+}
+
+/* Zona de inscribsción al gimnasio */
+#Insc{
+    height: 50vh;
+    width: 100%;
+    display: grid;
+    background-color: #424242;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(10 , 1fr);
+}
+
+#insc1{
+    color: white;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row: 3;
+}
+
+#rect2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    grid-column: 3;
+    grid-row: 4;
+}
+
+#email{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: 35px;
+    height: 60px;
+    width: 700px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 6;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    -webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;    
+    box-sizing: border-box;         
+}
+
+#bnt{
+    background-color: #e03315;
+    color: white;
+    display: block;
+    margin-left: 0px;
+    margin-right: auto;
+    height: 60px;
+    width: 200px;
+    grid-column: 4;
+    grid-row: 6;
+    border: none;
+    filter: drop-shadow(5px 3px 3px #424242);
+    text-shadow: 1px 1px #424242;
+    transition-duration: 0.15s;
+}
+
+#bnt:hover {
+    background-color: #F1F1F1;
+    color: #E03315;
+    border-color: #E03315;
+    border-style: solid;
+ 
+}
+
+#bnt:active{
+    background-color: #e03315;
+    color: white;
+}
+
+#inb{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+}
+
+/* Zona de showcase actividades */
+
+#Actv{
+    height: 75vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-template-rows: repeat(12 , 1fr);
+}
+
+#Dis{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row: 2;
+}
+
+#rect4{
+    display: block;
+    margin: 0px auto 0px auto;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row: 3;
+}
+
+#Praf1{
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row: 4;
+}
+
+#act1{
+    grid-column: 2;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    margin: 10px;
+}
+
+#act2{
+    grid-column: 3;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    margin: 10px;
+}
+
+#act3{
+    grid-column: 4;
+    grid-row-start: 6;
+    grid-row-end: 10;
+    margin: 10px;
+}
+
+.actividad{
+    box-shadow: 3px 3px 3px grey;
+    transition-duration: 0.15s;
+}
+
+.actividad:hover{
+    box-shadow: 7px 7px 7px grey;
+}
+
+#bnt2{
+    background-color: #e03315;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 200px;
+    grid-column: 3;
+    grid-row: 11;
+    border: none;
+    filter: drop-shadow(5px 3px 3px #424242);
+    text-shadow: 1px 1px #424242;
+    transition-duration: 0.15s;
+}
+
+#bnt2:hover {
+    background-color: #F1F1F1;
+    color: #E03315;
+    border-color: #E03315;
+    border-style: solid;
+ 
+}
+
+#bnt2:active{
+    background-color: #e03315;
+}
+
+#ext{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    text-decoration: none;
+    color:#ffffff;
+}
+
+#ext:active{
+    color: #F1F1F1;
+}
+
+#ext:hover{
+    color: #E03315;
+}
