@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    margin: 0px;
+    padding: 0px;
+}
+
+p{
+    margin: 0px;
+}
+
+#cont{
+    height: 90vh;
+}
+
+#contenedor{
+    height: 40vh;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
+
+#titl{
+    grid-column: 4;
+    grid-row: 3;
+    text-align: center;
+}
+
+#rect{
+    grid-row: 4;
+    grid-column: 4;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#rel{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row: 4;
+    margin-top: 2em;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#prue{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+#nombre{
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row: 7;
+}
+
+#correo{
+    grid-column: 1;
+    grid-row: 6;
+}
+
+#telefono{
+    grid-column: 1;
+    grid-row: 7;
+}
+
+#mensaje{
+    grid-column: 1;
+    grid-row: 8;
+}
+
+#env{
+    grid-column: 1;
+    grid-row: 9;
+}

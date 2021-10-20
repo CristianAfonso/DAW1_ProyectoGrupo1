@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <link rel="stylesheet" href="Estilos/contact.css">
+    <meta charset="UTF-8">
+    <title>Alta fit</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function () {
+            $('.nav').load("./Templates/nav.html");
+        });
+    </script>
+</head>
+<body>
+    <div class="nav"></div>
+    <div id="cont">
+        <article id="contenedor">
+            <h2 id="titl">¿TIENES ALGUNA PREGUNTA?</h2>
+            <img src="Imagenes/Rectangulo_naranja.svg" alt="" id="rect">
+            <p id="rel">Rellena tus datos personales, indica tu comentario,
+                sugerencia o pregunta y nuestro equipo de atención al cliente de
+                contestará a la mayor brevedad posible.
+            </p>
+        </article>
+        <form id="prue">
+            <label for="nombre" >Nombre</label>
+            <input type="text" id="nombre" placeholder="Nombre...">
+            <label for="correo">Correo eléctronico</label>
+            <input type="text" id="correo" placeholder="Correo Electrónico...">
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono" placeholder="Teléfono...">
+            <label for="mensaje">Comentario</label>
+            <input type="text" id="mensaje" placeholder="Comentario...">
+            <button type="submit" id="env">ENVIAR</button>
+        </form>
+    </div>
+
+
+
+</body>
+</html>
