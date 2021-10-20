@@ -2,12 +2,22 @@
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="../Estilos/login.css">
+    <link rel="stylesheet" type="text/css" href="./Estilos/login.css">
+    <link rel="stylesheet" href="Estilos/footer.css">
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function () {
+            $('.nav').load("./Templates/nav.html");
+            $('.footer').load("./Templates/footer.html");
+        })
+    </script>
 </head>
 <body>
+<div></div>
 <div class="container">
-    <div class="left">
-    </div>
+    <div class="nav"></div>
+    <div class="left"></div>
     <div class="login">
         <form id="login" method="get" action="login.php">
             <h1>Entrar</h1><br>
@@ -32,8 +42,8 @@
             <a href="#">Forgot Password </a>
         </form>
     </div>
-    <div class="right">
-    </div>
+    <div class="right"></div>
+    <div class="footer"></div>
 </div>
 </body>
 </html>
