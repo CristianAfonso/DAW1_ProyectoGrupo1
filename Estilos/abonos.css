@@ -1,0 +1,45 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Black";
+}
+.container {
+    padding: 100px;
+    max-width: 960px;
+    width: 95%;
+    margin: 20px auto;
+}
+
+h2{
+    text-align: center;
+    color: #E03315;
+}
+.columns{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.tarifa{
+    flex: 1;
+    border: 1px solid #666;
+    margin: 20px;
+    padding: 10px;
+    background: #D1D1D1;
+    transition: 0.3s;
+    height: 60vh;
+}
+
+.precio{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    background-color: #E03315;
+    cursor: pointer;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+}
