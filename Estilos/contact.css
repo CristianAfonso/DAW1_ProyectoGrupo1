@@ -23,7 +23,7 @@ p{
 }
 
 #contenedor{
-    height: 40vh;
+    height: 35vh;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -55,32 +55,119 @@ p{
 
 #prue{
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(21, 1fr);
+}
+
+#pruebitas{
+    background-color: #E1E1E1;
+    grid-row-start: 1;
+    grid-row-end: 22;
+    grid-column-start: 4;
+    grid-column-end: 9;
+    border-radius: 5px;
+}
+
+#lblnom{
+    grid-column-start: 5;
+    grid-row: 2;
 }
 
 #nombre{
-    grid-column-start: 3;
-    grid-column-end: 6;
-    grid-row: 7;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    border: none;
+    border-radius: 5px;
+}
+
+#lblcorr{
+    margin-top: 10px;
+    grid-column-start: 5;
+    grid-row: 5;
 }
 
 #correo{
-    grid-column: 1;
-    grid-row: 6;
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    border: none;
+    border-radius: 5px;
 }
 
-#telefono{
-    grid-column: 1;
-    grid-row: 7;
-}
-
-#mensaje{
-    grid-column: 1;
+#lbltel{
+    margin-top: 10px;
+    grid-column-start: 5;
     grid-row: 8;
 }
 
+#telefono{
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 9;
+    grid-row-end: 11;
+    border: none;
+    border-radius: 5px;
+}
+
+#lblmen{
+    margin-top: 10px;
+    grid-column-start: 5;
+    grid-row: 11;
+}
+
+#mensaje{
+
+    grid-column-start: 5;
+    grid-column-end: 8;
+    grid-row-start: 12;
+    grid-row-end: 18;
+    border: none;
+    border-radius: 5px;
+}
+
 #env{
-    grid-column: 1;
-    grid-row: 9;
+    background-color: #e03315;
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 150px;
+    grid-column-start: 7;
+    grid-row-start: 19;
+    grid-row-end: 22;
+    border: none;
+    filter: drop-shadow(5px 3px 3px #424242);
+    text-shadow: 1px 1px #424242;
+    transition-duration: 0.15s;
+}
+
+#env:hover {
+    background-color: #F1F1F1;
+    color: #E03315;
+    border-color: #E03315;
+    border-style: solid;
+ 
+}
+
+#env:active{
+    background-color: #e03315;
+}
+
+#enb{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5em;
+}
+
+input[type="text"]{
+    font-family: 'Roboto', sans-serif;
+    font-size:1.2em;
+}
+
+textarea[type="text"]{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
 }
