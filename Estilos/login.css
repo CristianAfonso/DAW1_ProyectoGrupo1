@@ -14,11 +14,11 @@ body
     background: #ffffff;
     border-radius: 15px ;
     height: 100vh;
-    padding: 100px 80px 0px 80px;
+    padding: 100px 80px 0 80px;
 
 
 }
-container{
+.container{
     text-align: center;
 }
 h1{
