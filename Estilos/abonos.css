@@ -30,7 +30,9 @@
 }
 .columns{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
     justify-content: space-around;
     margin: 5px 0;
 }
