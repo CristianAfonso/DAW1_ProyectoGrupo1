@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <link rel="stylesheet" href="Estilos/perfil.css">
+    <title>Alta fit</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function () {
+            $('.nav').load("./Templates/nav.html");
+        });
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Altafit</title>
+</head>
+<body>
+    <div class="nav"></div>
+    <div id="perf" class="contenedor">
+        <section id="columnIzq">
+            <!-- añadir un hover sobre cada uno de estos objetos con cambio 
+            en el color de la letra y en el area del objeto -->
+            <div id="backIz"></div>
+            <h2 id="izq1">PERFIL</h2>
+            <h2 id="izq2">CONFIGURACIÓN</h2>
+            <h2 id="izq3">MIS ACTIVIDADES</h2>
+        </section>
+        <section id="pruet">
+            <img src="Imagenes/Rectangle 32.png" alt="" id="fotoPerf">
+            <h3 id="nom">TERESA ASENSI NUEZ</h3>
+            <h3 id="mail">deydubegni@vusra.com</h3>
+            <h3 id="dias">13 DÍAS RESTANTES</h3>
+        </section>
+        <section id="activ">
+            <h1 id="act">MIS ACTIVIDADES</h2>
+            <h2 id="act1P">CROSSFIT</h2>
+            <img src="Imagenes/1 1.png" alt="" id="act1">
+            <h2 id="act2P">GIMNASIO EN CASA</h2>
+            <img src="Imagenes/5 1.png" alt="" id="act2">
+            <h2 id="act3P">ZUMBA</h2>
+            <img src="Imagenes/8 1.png" alt="" id="act3">
+        </section>
+        <section id="hor">
+            <h1 id="hortit">MI HORARIO</h1>
+            <h2 id="horAct1">CROSSFIT:</h3>
+            <p id="horAct1P">Lunes, Miércoles y Viernes: 10:30am</p>
+            <h2 id="horAct2">ZUMBA:</h3>
+            <p id="horAct2P">Martes y Jueves: 5:00pm</p>
+        </section>
+    </div>
+</body>
+</html>
