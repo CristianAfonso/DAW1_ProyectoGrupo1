@@ -1,0 +1,207 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#perf{
+    height: 100vh;
+}
+
+/* Columna de la izquierda */
+
+#columnIzq{
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #E1E1E1;
+    display: grid;
+    grid-template-rows: repeat(20, 1fr);
+}
+
+#izq1{
+    
+    grid-column: 1;
+    grid-row: 4;
+}
+
+#izq2{
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#izq3{
+    grid-column: 1;
+    grid-row: 6;
+}
+
+#backIz{
+    grid-row-start: 1;
+    grid-row-end: 21;
+    grid-column: 1;
+    background-color: #E1E1E1;
+}
+
+/* Columna del medio */
+
+#pruet{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    display: grid;
+    grid-template-rows: repeat(20, 5%);
+}
+
+#fotoPerf{
+    margin-top: 20px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    grid-column: 1;
+    grid-row: 3;
+
+}
+
+#nom{
+    text-align: center;
+    grid-column: 1;
+    grid-row: 8;
+}
+
+#mail{
+    text-align: center;
+    grid-column: 1;
+    grid-row: 9;
+}
+
+#dias{
+    text-align: center;
+    grid-column: 1;
+    grid-row: 10;
+}
+
+/* Mis actividades */
+
+#activ{
+    grid-column-start: 3;
+    grid-column-end: 8;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(6, 7%);
+}
+
+#act{
+    text-align: auto;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 4;
+}
+
+#act1P{
+    grid-row: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
+
+#act2P{
+    grid-row: 5;
+    grid-column-start: 4;
+    grid-column-end: 7;
+
+}
+
+#act3P{
+    grid-row: 5;
+    grid-column-start: 7;
+    grid-column-end: 10;
+
+}
+
+#act1{
+    grid-row: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+}
+
+#act2{
+    grid-row: 6;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#act3{
+    grid-row: 6;
+    grid-column-start: 7;
+    grid-column-end: 10;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Horario */
+
+#hor{
+    grid-row: 2;
+    grid-column-start: 3;
+    grid-column-end: 8;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 5%);
+}
+
+#hortit{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row: 1;
+}
+
+#horAct1{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row: 4;
+}
+
+#horAct1P{
+    grid-column-start: 2;
+    grid-column-end: 11;
+    grid-row: 5;
+}
+
+#horAct2{
+    grid-column-start: 1;
+    grid-column-end: 11;
+    grid-row: 7;
+}
+
+#horAct2P{
+    grid-column-start: 2;
+    grid-column-end: 11;
+    grid-row: 8;
+}

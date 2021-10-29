@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="./Estilos/login.css">
+    <link rel="stylesheet" href="Estilos/footer.css">
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function () {
+            $('.nav').load("./Templates/nav.html");
+            $('.footer').load("./Templates/footer.html");
+        })
+    </script>
+</head>
+<body>
+<div></div>
+<div class="container">
+    <div class="nav"></div>
+    <div class="left"></div>
+    <div class="login">
+        <form id="login" method="get" action="login.php">
+            <img src="Imagenes/signin.png" alt="logo" class="logo">
+            <br><br>
+            <label><b>Username</b></label>
+            <input type="text" name="Uname" id="Uname" placeholder="Usuario">
+            <br><br>
+            <label><b>Password</b></label>
+            <input type="Password" name="Pass" id="Pass" placeholder="Contrasena">
+            <br><br>
+            <input type="checkbox" id="check">
+
+            <span>Recuerdame</span>
+            <br><br>
+            <button type="button" class="log">Entrar</button>
+            <br><br>
+
+            <p style="text-align:center">
+                <a href="register.html">No tienes cuenta? Registrate ya</a>
+            </p>
+
+        </form>
+    </div>
+    <div class="right"></div>
+    <div class="footer"></div>
+</div>
+</body>
+</html>
