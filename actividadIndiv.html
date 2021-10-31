@@ -19,7 +19,7 @@
     <div id="page">
         <div>
             <div id="img-container">
-                <img src="../Imagenes/crossfit.jpeg">
+                <img class="responsive-iframe" src="../Imagenes/crossfit.jpeg">
             </div>
             <div id="descripcion"><!-- Get from Youtube vid -->
                 <h1>Título</h1>
@@ -31,19 +31,24 @@
 
             </div>
         </div>
-        <form action="videoPage.html">
-            <a href="#" class="orange-box">SIGUIENTE</a>
-        </form>
-        <a href=# id="accesovideo"><!-- Get from Youtube vid -->
-            <div >
-                <img src="../Imagenes/abdoPhoto.jpg" class="image">
+        <div>
+            <div id="contenedorVid">
+                <a href="videoPage.html" id="accesovideo" ><!-- Get from Youtube vid -->
+                    <div >
+                        <img src="../Imagenes/abdoPhoto.jpg" class="image">
+                    </div>
+                    <div class="desc-vid">
+                        <h1>Título</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  ea commodo consequa</p>
+                    </div>
+                </a>
             </div>
-            <div class="desc-vid">
-                <h1>Título</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  ea commodo consequa</p>
+            <div>
+                <form action="videoPage.html">
+                    <a href="videoPage.html" class="orange-box">SIGUIENTE</a>
+                </form>
             </div>
-        </a>
-
+        </div>
     </div>
     <div class="footer"></div>
 </body>

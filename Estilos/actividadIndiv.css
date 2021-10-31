@@ -2,26 +2,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 
 body {
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0px;
+    padding: 0px;
     height: auto;
     width: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: #F1F1F1;
+    display: grid;
 }
 #page{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 7% 5% 7% 5%;
+    padding: 0% 0% 3% 0%;
 }
 #img-container{
+    margin-top: 200px;
     margin-left: 15%;
     overflow: hidden;
     position:relative;
-    height: 75%;
-    width: auto;
-    grid-row: 1;
-    grid-column: 1;
+    width: 100%;
+    padding-top: 56.25%;
     background-color: #F1F1F1;
     box-shadow: 0px 15px 10px -15px #111;
 }
@@ -31,22 +31,20 @@ body {
     width: 1280px;
     margin-left: 15%;
 }
-#accesovideo{
-    margin-top:18%;
+#contenedorVid{
+    display: grid;
+    position: absolute;
+    width: 413px;
+    margin-top: 14%;
     margin-left: 15%;
-    width:auto;
-    height: 150px;
-    border-top: #424242;
-    border-color: #424242;
+}
+#accesovideo{
     background-color: #F1F1F1;
     color: #424242;
     font-family: 'Oswald', sans-serif;
     font-size: small;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    box-shadow: 0px 15px 10px -15px #111;
-    grid-column: 2;
-    grid-row: 1;
 }
 
 .desc-vid{
@@ -79,10 +77,12 @@ body {
     height: 100%;
 }
 .orange-box {
-    width:214px;
+    width:9%;
+    height: 4%;
     background-color: #E03315;
     position: absolute;
-    margin-left: 40%;
+    margin-top: 42%;
+    margin-left: 19.6%;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     color: #F1F1F1;
@@ -93,6 +93,9 @@ body {
     text-shadow: 1px 1px #424242;
     transition-duration: 0.4s;
 }
+#accesovideo:hover{
+    background-color: #d1d1d1;
+}
 .orange-box:hover {
     background-color: #F1F1F1;
     color: #E03315;
@@ -100,8 +103,5 @@ body {
     border-style: solid;
 }
 a:link, a:visited, a:active {
-     text-decoration:none;
- }
-#accesovideo:hover{
-    background-color: #d1d1d1;
+    text-decoration:none;
 }
