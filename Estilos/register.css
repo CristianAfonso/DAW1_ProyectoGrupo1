@@ -1,0 +1,79 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color:#d1d1d1;
+}
+.register{
+    width: 382px;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: #ffffff;
+    border-radius: 15px ;
+    height: 100vh;
+    padding: 160px 80px 0 80px;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+#Name{
+    width: 300px;
+    height: 30px;
+    border-style:groove;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Surnname{
+    width: 300px;
+    height: 30px;
+    border-style:groove;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Phone{
+    width: 300px;
+    height: 30px;
+    border-style:groove;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Email{
+    width: 300px;
+    height: 30px;
+    border-style:groove;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border-style:groove;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass2{
+    width: 300px;
+    height: 30px;
+    border-style:groove;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+.reg{
+    width: 90px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    background-color: #E03315;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+
+}
