@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <link rel="stylesheet" href="Estilos/contact.css">
+    <meta charset="UTF-8">
+    <title>Alta fit</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function () {
+            $('.nav').load("./Templates/nav.html");
+        });
+    </script>
+</head>
+<body>
+    <div class="nav"></div>
+    <div id="cont">
+        <article id="contenedor">
+            <h2 id="titl">¿TIENES ALGUNA PREGUNTA?</h2>
+            <img src="Imagenes/Rectangulo_naranja.svg" alt="" id="rect">
+            <p id="rel">Rellena tus datos personales, indica tu comentario,
+                sugerencia o pregunta y nuestro equipo de atención al cliente de
+                contestará a la mayor brevedad posible.
+            </p>
+        </article>
+        <form id="prue">
+            <div id="pruebitas"></div>
+            <label for="nombre" id="lblnom">Nombre</label>
+            <input type="text" id="nombre" pattern="[A-Za-z]{6}" value=" ">
+            <label for="correo" id="lblcorr">Correo eléctronico</label>
+            <input type="text" id="correo" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
+            <label for="telefono" id="lbltel">Teléfono</label>
+            <input type="text" id="telefono" pattern="[0-9]{9}">
+            <label for="mensaje" id="lblmen">Comentario</label>
+            <textarea type="text" id="mensaje" required></textarea>
+            <button type="submit" id="env"><span id="enb">ENVIAR</span></button>
+        </form>
+    </div>
+
+
+
+</body>
+<script src="Scripts/validation.js"></script>
+</html>
