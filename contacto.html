@@ -25,15 +25,14 @@
         </article>
         <form id="prue">
             <div id="pruebitas"></div>
-            <p>Hola que hace</p>
             <label for="nombre" id="lblnom">Nombre</label>
-            <input type="text" id="nombre">
+            <input type="text" id="nombre" pattern="[A-Za-z]{6}" value=" ">
             <label for="correo" id="lblcorr">Correo eléctronico</label>
-            <input type="text" id="correo">
+            <input type="text" id="correo" pattern="^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$">
             <label for="telefono" id="lbltel">Teléfono</label>
-            <input type="text" id="telefono">
+            <input type="text" id="telefono" pattern="[0-9]{9}">
             <label for="mensaje" id="lblmen">Comentario</label>
-            <textarea type="text" id="mensaje"></textarea>
+            <textarea type="text" id="mensaje" required></textarea>
             <button type="submit" id="env"><span id="enb">ENVIAR</span></button>
         </form>
     </div>
@@ -41,4 +40,5 @@
 
 
 </body>
+<script src="Scripts/validation.js"></script>
 </html>
