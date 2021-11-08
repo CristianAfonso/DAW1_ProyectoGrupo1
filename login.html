@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Login</title>
     <link rel="stylesheet" type="text/css" href="./Estilos/login.css">
     <link rel="stylesheet" href="Estilos/footer.css">
@@ -23,11 +25,15 @@
             <img src="Imagenes/signin.png" alt="logo" class="logo">
             <br><br>
             <label><b>Username</b></label>
-            <input type="text" name="Uname" id="Uname" placeholder="Usuario" required>
-            <br><br>
+            <div class="input-box">
+                <i class="fas fa-user icon"></i>
+                <input type="text" name="Uname" id="Uname" placeholder="Usuario" required>
+            </div>
             <label><b>Password</b></label>
-            <input type="Password" name="Pass" id="Pass" placeholder="Contrasena" required>
-            <br><br>
+            <div class="input-box">
+                <i class="fas fa-lock icon"></i>
+                <input type="Password" name="Pass" id="Pass" placeholder="Contrasena" required>
+            </div>
             <input type="checkbox" id="check">
 
             <span>Recuerdame</span>
