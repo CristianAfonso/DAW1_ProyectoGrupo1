@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Register</title>
     <link rel="stylesheet" type="text/css" href="./Estilos/register.css">
     <link rel="stylesheet" href="Estilos/footer.css">
@@ -21,19 +23,31 @@
     <div class="register">
         <form id="register" method="get" action="register.php">
             <img src="Imagenes/register.png" alt="logo" class="logo">
-            <br><br>
-            <input type="text" name="Name" id="Name" placeholder="Nombre">
-            <br><br>
-            <input type="text" name="Surname" id="Surnname" placeholder="Apellidos">
-            <br><br>
-            <input type="text" name="Phone" id="Phone" placeholder="Numero de contacto">
-            <br><br>
-            <input type="text" name="Email" id="Email" placeholder="Correo electronico">
-            <br><br>
-            <input type="Password" name="Pass" id="Pass" placeholder="Contrasena">
-            <br><br>
-            <input type="Password" name="Pass2" id="Pass2" placeholder="Repetir contrasena">
-            <br><br>
+            <div class="input-box">
+                <i class="fas fa-user icon"></i>
+                <input type="text" name="Name" id="Name" placeholder="Nombre">
+            </div>
+            <div class="input-box">
+                <i class="fas fa-user icon"></i>
+                <input type="text" name="Surname" id="Surnname" placeholder="Apellidos">
+            </div>
+            <div class="input-box">
+                <i class="fas fa-phone-square-alt icon"></i>
+                <input type="text" name="Phone" id="Phone" placeholder="Numero de contacto">
+            </div>
+            <div class="input-box">
+                <i class="fas fa-envelope-square icon"></i>
+                <input type="text" name="Email" id="Email" placeholder="Correo electronico">
+            </div>
+            <div class="input-box">
+                <i class="fas fa-lock icon"></i>
+                <input type="Password" name="Pass" id="Pass" placeholder="Contrasena">
+            </div>
+            <div class="input-box">
+                <i class="fas fa-lock icon"></i>
+                <input type="Password" name="Pass2" id="Pass2" placeholder="Repetir contrasena">
+            </div>
+
             <button type="button" class="reg">Crear</button>
             <br><br>
             <p style="text-align:center">
