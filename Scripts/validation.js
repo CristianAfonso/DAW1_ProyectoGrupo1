@@ -22,11 +22,31 @@ $(document). ready(function (){
                 attributeValue = document.getElementById(contacto[i]).getAttribute("pattern");
                 if(document.getElementById(contacto[i]).validity.patternMismatch == true) {
                     document.getElementById(contacto[i]).setCustomValidity('Este campo debe atender a ' + attributeValue);
+                }else {
+                    document.getElementById(contacto[i]).setCustomValidity('');
                 }
             }
         }
     });
 
+    //Metodo curioso a revisar
+
+    function validate(inputID) {
+        const input = document.getElementById(inputID);
+        const validityState = input.validity;
+
+        if (validityState.valueMissing) {
+            input.setCustomValidity('You gotta fill this out, yo!');
+        } else if (validityState.rangeUnderflow) {
+            input.setCustomValidity('We need a higher number!');
+        } else if (validityState.rangeOverflow) {
+            input.setCustomValidity('Thats too high!');
+        } else {
+            input.setCustomValidity('');
+        }
+
+        input.reportValidity();
+    }
 
 });
 
