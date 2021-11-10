@@ -4,39 +4,38 @@
 body {
     margin: 0px;
     padding: 0px;
-    height: auto;
-    width: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: #F1F1F1;
     display: grid;
 }
 #page{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 0% 0% 3% 0%;
+    grid-template-columns: repeat(2,75rem);
+    padding: 0rem 0rem 3rem 0rem;
 }
 #img-container{
-    margin-top: 200px;
-    margin-left: 15%;
+    margin-top: 15rem;
+    margin-left: 10rem;
     overflow: hidden;
     position:relative;
-    width: 100%;
-    padding-top: 56.25%;
+    height: auto;
+    width: 70rem;
+    padding-top: 40rem;
     background-color: #F1F1F1;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0rem 2rem 1rem -2rem #111;
 }
 #descripcion{
     font-family: 'Roboto', sans-serif;
     color: #424242;
-    width: 1280px;
-    margin-left: 15%;
+    width: 70rem;
+    margin-left: 10rem;
 }
 #contenedorVid{
     display: grid;
     position: absolute;
-    width: 413px;
-    margin-top: 14%;
-    margin-left: 15%;
+    width: 30rem;
+    margin-top: 15rem;
+    margin-left: 10rem;
 }
 #accesovideo{
     background-color: #F1F1F1;
@@ -44,27 +43,27 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: small;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,10rem);
 }
 
 .desc-vid{
-    height: 115px;
-    width: 250px;
+    height: 7rem ;
+    width: 15rem;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     color: #424242;
-    margin: 0px 0px 15px 15px;
+    margin: 0rem 1rem 1rem 0rem;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 .image{
-    height: 108px;
-    width: 108px;
+    height: 7rem;
+    width: 7rem;
     overflow: hidden;
     border-style: solid;
     border-color: #1b1b1b;
     background-repeat: no-repeat;
-    margin: 15px auto 15px 15px;
+    margin: 1rem auto 1rem 1rem;
     grid-column: 1;
 }
 .responsive-iframe{
@@ -77,18 +76,18 @@ body {
     height: 100%;
 }
 .orange-box {
-    width:9%;
-    height: 4%;
-    background-color: #E03315;
+    width: 15rem;
+    height: auto;
     position: absolute;
-    margin-top: 42%;
-    margin-left: 19.6%;
+    background-color: #E03315;
+    margin-top: 58rem;
+    margin-left: 16rem;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     color: #F1F1F1;
     text-align: center;
-    font-size: 30px;
-    padding: 15px;
+    font-size: 2rem;
+    padding: 1rem;
     filter: drop-shadow(5px 3px 3px #424242);
     text-shadow: 1px 1px #424242;
     transition-duration: 0.4s;

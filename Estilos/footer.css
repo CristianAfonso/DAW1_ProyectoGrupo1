@@ -14,15 +14,15 @@
 }
 
 .contenedorLinks {
-    margin: 20px 60px 20px 60px;
-    padding: 20px 0px 20px 0px;
+    margin: 3rem 9rem 3rem 9rem;
+    padding: 3rem 0px 3rem 0px;
     background-color: #626262;
     display: grid;
-    grid-template-columns: repeat(9, 1fr);  
+    grid-template-columns: repeat(9, 20rem);
 }
 
 #link1{
-    padding-top: 10px;
+    padding-top: 1rem;
     grid-column: 8;
     grid-row: 1;
     text-align: center;
@@ -111,7 +111,7 @@
 #copy{
     color: #ffffff;
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 1rem 0px 1rem 0px;
 }
 
 .link{

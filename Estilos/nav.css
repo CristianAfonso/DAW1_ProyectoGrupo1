@@ -5,11 +5,12 @@
     position: fixed;
     background-color: #424242;
     width: 100%;
-    height: 10%;
-    box-shadow: 0px 15px 10px -15px #111;
-    font-size: 1.4em;
+    height: 8rem;
+    box-shadow: 0rem 2rem 1rem -2rem #111;
+    font-size: 1.4rem;
     font-family: 'Oswald', sans-serif;
     z-index: 1;
+    text-align: center;
 }
 
 .contenedorNavigation {
@@ -21,62 +22,40 @@
 .trext {
     text-decoration: none;
     color: #ffffff;
+    margin: 1.25rem 1rem 0px 0px;
 }
 
 #logo {
     grid-column: 2;
-
 }
 
 #primero {
-    margin: 1.25em 10px 0px 0px;
     grid-column: 10;
-
-}
-
-#primero:hover{
-    color: #e03315;
 }
 
 #segundo {
-    margin: 1.25em 10px 0px 0px;
     grid-column: 11;
 
 }
 
-#segundo:hover{
-    color: #e03315;
-}
-
 #tercero {
-    margin: 1.25em 10px 0px 0px;
     grid-column: 12;
 
 }
 
-#tercero:hover{
-    color: #e03315;
-}
-
 #cuarto {
-    margin: 1.25em 10px 0px 0px;
     grid-column: 13;
 
 }
 
-#cuarto:hover{
-    color: #e03315;
-}
-
 #quinto {
     text-align: center;
-    margin: 1.25em 10px 0px 10px;
     grid-column-start: 14;
     grid-column-end: 16;
     padding-right: 10px;
 }
 
-#quinto:hover{
+.trext:hover{
     color: #e03315;
 }
 
