@@ -4,8 +4,6 @@
 body{
     margin: 0px;
     padding: 0px;
-    height: auto;
-    width: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: #F1F1F1;
     display: grid;
@@ -13,36 +11,36 @@ body{
 
 #actividades{
     display: grid;
-    grid-template-columns: 435px 4.08% 435px 103px 435px;
-    grid-template-rows: 364px 53px 364px;
+    grid-template-columns: repeat(8, 10vw);
+    grid-template-rows: repeat(5,5vw);
     align-items: stretch;
     position: center;
-    margin: 10% 20% 5% 20%;
+    margin: 10% 9vw 10% 9vw;
 }
 
 #actividad1{
-    grid-column:1;
-    grid-row:1;
+    grid-column:1/2;
+    grid-row:1/2;
 }
 #actividad2{
-    grid-column:3;
-    grid-row:1;
+    grid-column:4/5;
+    grid-row:1/2;
 }
 #actividad3{
-    grid-column:5;
-    grid-row:1;
+    grid-column:7/8;
+    grid-row:1/2;
 }
 #actividad4{
-    grid-column:1;
-    grid-row:3;
+    grid-column:1/2;
+    grid-row:4/5;
 }
 #actividad5{
-    grid-column:3;
-    grid-row:3;
+    grid-column:4/5;
+    grid-row:4/5;
 }
 #actividad6{
-    grid-column: 5;
-    grid-row: 3;
+    grid-column:7/8;
+    grid-row:4/5;
 }
 .actividad{
     text-align: center;
@@ -57,7 +55,7 @@ body{
 .box-img{
     width: 400px;
     height: 321px;
-    margin: 43px 0px 0px 43px;
+    margin: 2vw 0 0 2vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
