@@ -15,7 +15,7 @@
 
 .contenedorNavigation {
     display: grid;
-    grid-template-columns: repeat(15, 1fr);
+    grid-template-columns: repeat(15, 7vw);
     text-align: right;
 }
 
@@ -24,7 +24,6 @@
     color: #ffffff;
     margin: 1.25rem 1rem 0px 0px;
 }
-
 #logo {
     grid-column: 2;
 }
@@ -45,7 +44,6 @@
 
 #cuarto {
     grid-column: 13;
-
 }
 
 #quinto {
@@ -54,11 +52,40 @@
     grid-column-end: 16;
     padding-right: 10px;
 }
-
+#menu {
+    grid-column:13;
+    background-color: #d1d1d1;
+    border-style: solid;
+    border-color: #1b1b1b;
+    width: 5vw;
+    height: auto;
+}
 .trext:hover{
     color: #e03315;
 }
+@media screen and (min-width: 1024px){
+    .trext{
+        visibility: visible;
+    }
+    #menu{
+        visibility: hidden;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #menu{
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 767px) {
 
+    .trext{
+        visibility: hidden;
+    }
+    #menu {
+        visibility: visible;
+    }
+
+}
 
 
 

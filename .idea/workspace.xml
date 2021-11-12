@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="toqueteado el footer acercandolo a un diseño responsivo, igual que actividades.css, serviran de base para el resto de .css's">
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="Poco a poco llegando a responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/actividades.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividades.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividades.html" beforeDir="false" afterPath="$PROJECT_DIR$/actividades.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estilos/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/nav.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/nav.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -125,6 +127,7 @@
       <workItem from="1635682495278" duration="9126000" />
       <workItem from="1635770358078" duration="667000" />
       <workItem from="1635936939554" duration="6218000" />
+      <workItem from="1636713784862" duration="7153000" />
     </task>
     <task id="LOCAL-00001" summary="Improvement a las relaciones entre videoPage.html y actividadIndiv.html">
       <created>1635686081037</created>
@@ -154,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636660651745</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Poco a poco llegando a responsive">
+      <created>1636684664457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1636684664457</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -184,7 +194,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -228,7 +238,8 @@
     <MESSAGE value="Improvement a las relaciones entre videoPage.html y actividadIndiv.html" />
     <MESSAGE value="actividadIndivPresencial.html a partir de actividadIndiv.html con cambios en el lado derecho que especifican datos sobre las clases presenciales, ampliable" />
     <MESSAGE value="toqueteado el footer acercandolo a un diseño responsivo, igual que actividades.css, serviran de base para el resto de .css's" />
-    <option name="LAST_COMMIT_MESSAGE" value="toqueteado el footer acercandolo a un diseño responsivo, igual que actividades.css, serviran de base para el resto de .css's" />
+    <MESSAGE value="Poco a poco llegando a responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Poco a poco llegando a responsive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
