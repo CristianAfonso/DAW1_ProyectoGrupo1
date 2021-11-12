@@ -6,16 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="Poco a poco llegando a responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estilos/actividades.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividades.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estilos/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/footer.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/nav.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">

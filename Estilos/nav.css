@@ -15,50 +15,67 @@
 
 .contenedorNavigation {
     display: grid;
-    grid-template-columns: repeat(15, 7vw);
-    text-align: right;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(1, 3vw);
+    text-align: center;
+    padding-bottom: 2vw;
 }
 
 .trext {
     text-decoration: none;
     color: #ffffff;
-    margin: 1.25rem 1rem 0px 0px;
+    margin: auto;
 }
 #logo {
     grid-column: 2;
+    grid-row: 2;
+    margin: auto;
 }
 
 #primero {
-    grid-column: 10;
+    grid-column: 6;
+    grid-row: 2;
 }
 
 #segundo {
-    grid-column: 11;
-
+    grid-column: 9;
+    grid-row: 2;
 }
 
 #tercero {
     grid-column: 12;
-
+    grid-row: 2;
 }
 
 #cuarto {
-    grid-column: 13;
+    grid-column: 15;
+    grid-row: 2;
 }
 
 #quinto {
-    text-align: center;
-    grid-column-start: 14;
-    grid-column-end: 16;
-    padding-right: 10px;
+    grid-column: 18;
+    grid-row: 2;
 }
 #menu {
-    grid-column:13;
-    background-color: #d1d1d1;
-    border-style: solid;
-    border-color: #1b1b1b;
-    width: 5vw;
-    height: auto;
+    grid-column:14;
+    grid-row: 2;
+    background-color: #ffffff;
+    border-radius: 20%;
+    box-shadow: #000 2px 2px 2px;
+    width: 5rem;
+    height: 5rem;
+    margin:auto;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.responsive-iframe{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    color: #E03315;
 }
 .trext:hover{
     color: #e03315;
@@ -66,14 +83,40 @@
 @media screen and (min-width: 1024px){
     .trext{
         visibility: visible;
+        text-align: center;
     }
     #menu{
         visibility: hidden;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
+    .trext{
+        text-align: center;
+        visibility: visible;
+    }
     #menu{
         visibility: hidden;
+    }
+    #primero{
+        grid-column: 10;
+        grid-row: 1;
+    }
+    #segundo{
+        grid-column: 16;
+        grid-row: 1;
+
+    }
+    #tercero{
+        grid-column: 10;
+        grid-row: 3;
+    }
+    #cuarto{
+        grid-column: 16;
+        grid-row: 3;
+    }
+    #quinto{
+        grid-column: 19;
+        grid-row: 3;
     }
 }
 @media screen and (max-width: 767px) {
