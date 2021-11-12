@@ -10,7 +10,7 @@
 
 .contenedorFooter {
     display: grid;
-    grid-template-columns: repeat(15, 6.66vw);
+    grid-template-columns: repeat(15, 6.6vw);
 }
 
 .contenedorLinks {
@@ -18,7 +18,7 @@
     padding: 3rem 0 3rem 0;
     background-color: #626262;
     display: grid;
-    grid-template-columns: repeat(9, 11.11vw);
+    grid-template-columns: repeat(9, 11.1vw);
 }
 
 #link1{

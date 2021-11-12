@@ -8,42 +8,108 @@ body{
     background-color: #F1F1F1;
     display: grid;
 }
+@media screen and (min-width: 1024px){
+    #actividades{
+        display: grid;
+        grid-template-columns: repeat(8, 10vw);
+        grid-template-rows: repeat(5,5vw);
+        align-items: stretch;
+        position: center;
+        margin: 10% 9vw 10% 9vw;
+    }
 
-#actividades{
-    display: grid;
-    grid-template-columns: repeat(8, 10vw);
-    grid-template-rows: repeat(5,5vw);
-    align-items: stretch;
-    position: center;
-    margin: 10% 9vw 10% 9vw;
+    #actividad1{
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+    #actividad2{
+        grid-column:4/5;
+        grid-row:1/2;
+    }
+    #actividad3{
+        grid-column:7/8;
+        grid-row:1/2;
+    }
+    #actividad4{
+        grid-column:1/2;
+        grid-row:4/5;
+    }
+    #actividad5{
+        grid-column:4/5;
+        grid-row:4/5;
+    }
+    #actividad6{
+        grid-column:7/8;
+        grid-row:4/5;
+    }
 }
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #actividades{
+        display: grid;
+        grid-template-columns: repeat(5, 10rem);
+        grid-template-rows: repeat(8,5rem);
+        align-items: stretch;
+        position: center;
+        margin: 10% 9vw 10% 9vw;
 
-#actividad1{
-    grid-column:1/2;
-    grid-row:1/2;
+    }
+
+    #actividad1{
+        grid-column:1/2;
+        grid-row:1/2;
+    }
+    #actividad2{
+        grid-column:4/5;
+        grid-row:4/5;
+    }
+    #actividad3{
+        grid-column:1/2;
+        grid-row:7/8;
+    }
+    #actividad4{
+        grid-column:4/5;
+        grid-row:1/2;
+    }
+    #actividad5{
+        grid-column:1/2;
+        grid-row:4/5;
+    }
+    #actividad6{
+        grid-column:4/5;
+        grid-row:7/8;
+    }
 }
-#actividad2{
-    grid-column:4/5;
-    grid-row:1/2;
-}
-#actividad3{
-    grid-column:7/8;
-    grid-row:1/2;
-}
-#actividad4{
-    grid-column:1/2;
-    grid-row:4/5;
-}
-#actividad5{
-    grid-column:4/5;
-    grid-row:4/5;
-}
-#actividad6{
-    grid-column:7/8;
-    grid-row:4/5;
+@media screen and (max-width: 767px){
+    #actividades{
+        display: grid;
+        grid-template-rows: repeat(17,5vw);
+        align-items: stretch;
+        position: center;
+        margin: 10vw 9vw 10vw 9vw;
+
+    }
+    #actividad1{
+        grid-row:1/2;
+    }
+    #actividad2{
+        grid-row:4/5;
+    }
+    #actividad3{
+        grid-row:7/8;
+    }
+    #actividad4{
+        grid-row:10/11;
+    }
+    #actividad5{
+        grid-row:13/14;
+    }
+    #actividad6{
+        grid-row:16/17;
+    }
 }
 .actividad{
     text-align: center;
+    position: center;
     width: 435px;
     height: 364px;
     color: #424242;

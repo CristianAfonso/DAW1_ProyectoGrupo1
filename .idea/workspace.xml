@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="actividadIndivPresencial.html a partir de actividadIndiv.html con cambios en el lado derecho que especifican datos sobre las clases presenciales, ampliable">
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="toqueteado el footer acercandolo a un diseño responsivo, igual que actividades.css, serviran de base para el resto de .css's">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estilos/actividadIndiv.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividadIndiv.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/actividades.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividades.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/actividades.html" beforeDir="false" afterPath="$PROJECT_DIR$/actividades.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -149,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635770375372</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="toqueteado el footer acercandolo a un diseño responsivo, igual que actividades.css, serviran de base para el resto de .css's">
+      <created>1636660651745</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636660651745</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -222,7 +227,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Improvement a las relaciones entre videoPage.html y actividadIndiv.html" />
     <MESSAGE value="actividadIndivPresencial.html a partir de actividadIndiv.html con cambios en el lado derecho que especifican datos sobre las clases presenciales, ampliable" />
-    <option name="LAST_COMMIT_MESSAGE" value="actividadIndivPresencial.html a partir de actividadIndiv.html con cambios en el lado derecho que especifican datos sobre las clases presenciales, ampliable" />
+    <MESSAGE value="toqueteado el footer acercandolo a un diseño responsivo, igual que actividades.css, serviran de base para el resto de .css's" />
+    <option name="LAST_COMMIT_MESSAGE" value="toqueteado el footer acercandolo a un diseño responsivo, igual que actividades.css, serviran de base para el resto de .css's" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
