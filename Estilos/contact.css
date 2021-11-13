@@ -175,3 +175,46 @@ textarea[type="text"]{
 input:invalid {
     border: red solid 3px;
 }
+
+@media (min-width: 400px) {
+    #pruebitas{
+        grid-column-start: 2;
+        grid-column-end: 11;
+    }
+    #lblnom{
+        grid-column-start: 3;
+
+    }
+    
+    #nombre{
+        grid-column-start: 3;
+        grid-column-end: 10;
+    }
+    
+    #lblcorr{
+        grid-column-start: 3;
+    }
+    
+    #correo{
+        grid-column-start: 3;
+        grid-column-end: 10;
+    }
+    
+    #lbltel{
+        grid-column-start: 3;
+    }
+    
+    #telefono{
+        grid-column-start: 3;
+        grid-column-end: 10;
+    }
+    
+    #lblmen{
+        grid-column-start: 3;
+    }
+    
+    #mensaje{
+        grid-column-start: 3;
+        grid-column-end: 10;
+    }
+}
