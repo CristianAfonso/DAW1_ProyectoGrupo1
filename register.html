@@ -22,17 +22,17 @@
         <form id="register" method="get" action="register.php">
             <img src="Imagenes/register.png" alt="logo" class="logo">
             <br><br>
-            <input type="text" name="Name" id="Name" placeholder="Nombre">
+            <input type="text" name="Name" id="Name" placeholder="Nombre" pattern="[A-Za-z]{4,}">
             <br><br>
-            <input type="text" name="Surname" id="Surnname" placeholder="Apellidos">
+            <input type="text" name="Surname" id="Surnname" placeholder="Apellidos" pattern="^[a-z ,.'-]+$/i">
             <br><br>
-            <input type="text" name="Phone" id="Phone" placeholder="Numero de contacto">
+            <input type="text" name="Phone" id="Phone" placeholder="Numero de contacto" pattern="[0-9]{9}">
             <br><br>
-            <input type="text" name="Email" id="Email" placeholder="Correo electronico">
+            <input type="text" name="Email" id="Email" placeholder="Correo electronico" pattern="^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
             <br><br>
-            <input type="Password" name="Pass" id="Pass" placeholder="Contrasena">
+            <input type="Password" name="Pass" id="Pass" placeholder="Contrasena" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
             <br><br>
-            <input type="Password" name="Pass2" id="Pass2" placeholder="Repetir contrasena">
+            <input type="Password" name="Pass2" id="Pass2" placeholder="Repetir contrasena" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
             <br><br>
             <button type="button" class="reg">Crear</button>
             <br><br>
@@ -46,4 +46,5 @@
     <div class="footer"></div>
 </div>
 </body>
+<script src="Scripts/validation.js"></script>
 </html>

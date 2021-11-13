@@ -289,3 +289,103 @@ p{
 #tris:hover{
     opacity: 0%;
 }
+
+@media (min-width: 400px){
+    #home{
+        height: auto;
+        
+        background-repeat: no-repeat;
+    }
+    #prueba1{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 3;
+    }
+    
+    #rect3{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 4;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #prueba2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row: 4;
+    }
+
+    #Intro{
+        height: 10%;
+        grid-template-rows: repeat(8 , 1fr);
+    }
+
+    #rect{
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+
+    #tret1{
+        grid-row: 5;
+    }
+    #tret2{
+        margin-top: 10px;
+        grid-row: 6;
+    }
+
+    #rect2{
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+
+    #email{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #bnt{
+        grid-column-start: 1;
+        grid-column-end: 6;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        grid-row: 7;
+    }
+
+    #Actv{
+        grid-template-rows: repeat(15 , 1fr);
+    }
+
+    #act1{
+        grid-row-start: 7;
+        grid-row-end: 9;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin: 10px;
+    }
+    
+    #act2{
+        grid-row-start: 9;
+        grid-row-end: 11;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin: 10px;
+    }
+    
+    #act3{
+        grid-row-start: 11;
+        grid-row-end: 13;
+        grid-column-start: 2;
+        grid-column-end: 5;
+        margin: 10px;
+    }
+
+    #bnt2{
+        grid-row: 14;
+    }
+}
