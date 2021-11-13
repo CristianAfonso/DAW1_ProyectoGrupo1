@@ -16,6 +16,10 @@
     min-height: 100vh;
     padding: 160px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .tarifa h2{
@@ -38,10 +42,10 @@
 }
 
 .tarifa{
-    width: 360px;
+    width: 480px;
     height: 60vh;
     padding: 0;
-    margin: 0;
+    margin: 20px;
     box-shadow: -1px 0 5px
 }
 .tarifa p{
@@ -52,12 +56,11 @@
     padding: 32px;
 }
 .tarifa ul li{
-    margin-left: 10px;
     margin-bottom: 8px;
     font-size: 18px;
 }
 
-.precio{
+.tarifa .precio{
     width: 100px;
     height: 40px;
     font-size: 16px;
@@ -65,11 +68,14 @@
     color: #fff;
     background-color: #E03315;
     cursor: pointer;
-    justify-content: center;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
+.tarifa:hover{
+    transform: translateY(-30px);
+}
+
 .botc{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 .contact{
     width: 120px;
