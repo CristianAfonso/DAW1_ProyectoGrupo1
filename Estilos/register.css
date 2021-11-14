@@ -29,7 +29,7 @@ body
     outline: none;
     padding-left: 8px;
 }
-#Surnname{
+#Username{
     width: 300px;
     height: 30px;
     border: none;
@@ -87,6 +87,20 @@ body
     display: block;
 
 }
+.input-box.success{
+    border:2px solid rgb(26, 167, 26);
+}
+.input-box.error{
+    border: 2px solid rgb(228, 29, 22);
+}
+.input-box small{
+    position:absolute;
+    visibility: hidden;
+    color: #e74c3c;
+    font-style: bold;
+    display: block;
+}
+
 @media (max-width: 780px) {
 
     body {

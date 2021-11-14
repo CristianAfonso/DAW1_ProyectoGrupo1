@@ -21,31 +21,37 @@
     <div class="left">
     </div>
     <div class="register">
-        <form id="register" method="get" action="register.php">
+        <form class ="form" id="form" method="get" action="register.php">
             <img src="Imagenes/register.png" alt="logo" class="logo">
             <div class="input-box">
                 <i class="fas fa-user icon"></i>
-                <input type="text" name="Name" id="Name" placeholder="Nombre">
-            </div>
-            <div class="input-box">
-                <i class="fas fa-user icon"></i>
-                <input type="text" name="Surname" id="Surnname" placeholder="Apellidos">
+                <input type="text" name="Name" id="Name" placeholder="Nombre y apellido" required>
+                <small>mensaje</small>
             </div>
             <div class="input-box">
                 <i class="fas fa-phone-square-alt icon"></i>
-                <input type="text" name="Phone" id="Phone" placeholder="Numero de contacto">
+                <input type="text" name="Phone" id="Phone" placeholder="Numero de contacto" required>
+                <small>mensaje</small>
             </div>
             <div class="input-box">
                 <i class="fas fa-envelope-square icon"></i>
-                <input type="text" name="Email" id="Email" placeholder="Correo electronico">
+                <input type="text" name="Email" id="Email" placeholder="Correo electronico" required>
+                <small>mensaje</small>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-user icon"></i>
+                <input type="text" name="Username" id="Username" placeholder="Usuario" required>
+                <small>mensaje</small>
             </div>
             <div class="input-box">
                 <i class="fas fa-lock icon"></i>
-                <input type="Password" name="Pass" id="Pass" placeholder="Contrasena">
+                <input type="Password" name="Pass" id="Pass" placeholder="Contrasena" required>
+                <small>mensaje</small>
             </div>
             <div class="input-box">
                 <i class="fas fa-lock icon"></i>
-                <input type="Password" name="Pass2" id="Pass2" placeholder="Repetir contrasena">
+                <input type="Password" name="Pass2" id="Pass2" placeholder="Repetir contrasena" required>
+                <small>mensaje</small>
             </div>
 
             <button type="button" class="reg">Crear</button>
@@ -60,4 +66,5 @@
     <div class="footer"></div>
 </div>
 </body>
+<script src="Scripts/regvalidation.js"></script>
 </html>
