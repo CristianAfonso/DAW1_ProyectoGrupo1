@@ -1,8 +1,8 @@
 //lista de regex para la validacion
 const fullname = /^[a-z ,.'-]+$/;
 const emailreg = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
-const user= /^[A-Za-z]\\w{5,29}$/;
-const pass= /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/;
+const user= /^[a-zA-Z0-9]+$/;
+const pass= /^(.{0,7}|[^0-9]*|[^A-Z]*|[^a-z]*|[a-zA-Z0-9]*)$/;
 const phone = /(\+34|0034|34)?[ -]*(6|7)[ -]*([0-9][ -]*){8}/;
 
 //onclick="validateInput()"
