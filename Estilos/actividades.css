@@ -7,91 +7,12 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: #F1F1F1;
     display: grid;
-}
-@media screen and (min-width: 1024px){
-    #actividades{
-        display: grid;
-        grid-template-columns: repeat(8, 10vw);
-        grid-template-rows: repeat(5,5vw);
-        align-items: stretch;
-        position: center;
-        margin: 10% 9vw 10% 9vw;
-    }
-
-    #actividad1{
-        grid-column:1/2;
-        grid-row:1/2;
-    }
-    #actividad2{
-        grid-column:4/5;
-        grid-row:1/2;
-    }
-    #actividad3{
-        grid-column:7/8;
-        grid-row:1/2;
-    }
-    #actividad4{
-        grid-column:1/2;
-        grid-row:4/5;
-    }
-    #actividad5{
-        grid-column:4/5;
-        grid-row:4/5;
-    }
-    #actividad6{
-        grid-column:7/8;
-        grid-row:4/5;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px){
-    #actividades{
-        display: grid;
-        grid-template-columns: repeat(5, 10rem);
-        grid-template-rows: repeat(8,5rem);
-        align-items: stretch;
-        position: center;
-        margin: 10% 9vw 10% 9vw;
-
-    }
-
-    #actividad1{
-        grid-column:1/2;
-        grid-row:1/2;
-    }
-    #actividad2{
-        grid-column:4/5;
-        grid-row:4/5;
-    }
-    #actividad3{
-        grid-column:1/2;
-        grid-row:7/8;
-    }
-    #actividad4{
-        grid-column:4/5;
-        grid-row:1/2;
-    }
-    #actividad5{
-        grid-column:1/2;
-        grid-row:4/5;
-    }
-    #actividad6{
-        grid-column:4/5;
-        grid-row:7/8;
-    }
-}
-@media screen and (max-width: 767px){
-    #actividades{
-        display: inline-grid;
-        align-items: center;
-        text-align: center;
-        width:80%;
-        margin: 10rem 10% 5rem 10%;
-    }
+    overflow-x: hidden;
 }
 .actividad{
     text-align: center;
     position: center;
-    width: 435px;
+    width: auto;
     height: 364px;
     color: #424242;
     font-family: 'Oswald', sans-serif;
@@ -101,8 +22,8 @@ body{
     padding-top: 5vw;
 }
 .box-img{
-    width: 400px;
-    height: 321px;
+    width: auto;
+    height: 100%;
     margin: 2vw 0 0 2vw;
     overflow: hidden;
     display: flex;
@@ -114,6 +35,7 @@ body{
     width: auto;
     height: 100%;
     object-fit: cover;
+    alignment: center;
 }
 .actividad:hover{
     opacity: 85%;
@@ -125,3 +47,114 @@ a.actividad:link,a.actividad:visited, a.actividad:active {
     text-transform: Uppercase;
     color: #424242;
 }
+@media screen and (min-width: 1024px){
+    #actividades{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 25% 5% 25% 5% 25%;
+        grid-template-rows: 25% 20% 25% 10%;
+        align-items: stretch;
+        position: center;
+        padding: 0 5% 0 5%;
+        margin: 5rem 0 0 0;
+    }
+    .box-img{
+        margin: 2vw 0 0 2vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        alignment: center;
+    }
+    .actividad{
+        width: 100%;
+        color: #424242;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    #actividad1{
+        grid-column:1;
+        grid-row:1;
+    }
+    #actividad2{
+        grid-column:3;
+        grid-row:1;
+    }
+    #actividad3{
+        grid-column:5;
+        grid-row:1;
+    }
+    #actividad4{
+        grid-column:1;
+        grid-row:3;
+    }
+    #actividad5{
+        grid-column:3;
+        grid-row:3;
+    }
+    #actividad6{
+        grid-column:5;
+        grid-row:3;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    #actividades{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 50% 5% 50%;
+        grid-template-rows: 20% 10% 25% 10%;
+        overflow: hidden;
+        align-items: stretch;
+        position: center;
+        margin: 7rem 0 10% 10%;
+        padding: 0 10% 0 0;
+    }
+    .box-img{
+        width: 100%;
+        height: 100%;
+        margin: 2vw 0 0 2vw;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .actividad{
+        width: auto;
+        color: #424242;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+    }
+    #actividad1{
+        grid-column:1;
+        grid-row:1;
+    }
+    #actividad2{
+        grid-column:3;
+        grid-row:1;
+    }
+    #actividad3{
+        grid-column:1;
+        grid-row:3;
+    }
+    #actividad4{
+        grid-column:3;
+        grid-row:3;
+    }
+    #actividad5{
+        grid-column:1;
+        grid-row:5;
+    }
+    #actividad6{
+        grid-column:3;
+        grid-row:5;
+    }
+}
+@media screen and (max-width: 767px){
+    #actividades{
+        display: inline-grid;
+        justify-content: center;
+        align-items: center;
+        width:80%;
+        margin: 9rem 7% 10% 13%;
+    }
+}
+
