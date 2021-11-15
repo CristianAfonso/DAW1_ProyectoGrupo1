@@ -15,10 +15,8 @@
 
 .contenedorNavigation {
     display: grid;
-    grid-template-columns: repeat(20, 5%);
-    grid-template-rows: repeat(1, 3vw);
-    text-align: center;
-    padding-bottom: 2vw;
+    grid-template-columns: repeat(20, 4%);
+    grid-template-rows: repeat(5, 20%);
 }
 
 .trext {
@@ -27,37 +25,37 @@
     margin: auto;
 }
 #logo {
+    margin: auto auto auto 0;
     grid-column: 2;
     grid-row: 2;
-    margin: auto;
 }
 
 #primero {
-    grid-column: 6;
-    grid-row: 2;
+    grid-column: 8;
+    grid-row: 3;
 }
 
 #segundo {
-    grid-column: 9;
-    grid-row: 2;
+    grid-column: 12;
+    grid-row: 3;
 }
 
 #tercero {
-    grid-column: 12;
-    grid-row: 2;
+    grid-column: 16;
+    grid-row: 3;
 }
 
 #cuarto {
-    grid-column: 15;
-    grid-row: 2;
+    grid-column: 20;
+    grid-row: 3;
 }
 
 #quinto {
-    grid-column: 18;
-    grid-row: 2;
+    grid-column: 24;
+    grid-row: 3;
 }
 #menu {
-    grid-column:14;
+    grid-column:18;
     grid-row: 2;
     background-color: #ffffff;
     border-radius: 20%;
@@ -90,32 +88,32 @@
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px){
-    .trext{
-        text-align: center;
-        visibility: visible;
+    .contenedorNavigation {
+        display: grid;
+        grid-template-columns: repeat(20, 4%);
+        grid-template-rows: repeat(5, 20%);
     }
     #menu{
         visibility: hidden;
     }
     #primero{
         grid-column: 10;
-        grid-row: 1;
+        grid-row: 2;
     }
     #segundo{
-        grid-column: 16;
-        grid-row: 1;
-
+        grid-column: 20;
+        grid-row: 2;
     }
     #tercero{
         grid-column: 10;
-        grid-row: 3;
+        grid-row: 4;
     }
     #cuarto{
-        grid-column: 16;
-        grid-row: 3;
+        grid-column: 20;
+        grid-row: 4;
     }
     #quinto{
-        grid-column: 19;
+        grid-column: 15;
         grid-row: 3;
     }
 }
