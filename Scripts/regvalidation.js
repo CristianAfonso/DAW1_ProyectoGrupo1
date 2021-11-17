@@ -73,12 +73,19 @@ function validateInput(){
     }
 }
 
-document.querySelector("button")
+/*document.querySelector("button")
     .addEventListener("click",(event)=>{
         event.preventDefault();
 
         validateInput();
+    });*/
+document.querySelectorAll("input").forEach(item => {
+    item.addEventListener('change', event => {
+        event.preventDefault();
+
+        validateInput();
     });
+});
 
 function onSuccess(input){
     let parent=input.parentElement;
