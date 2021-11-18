@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="nav ya completo sure">
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="actividadIndiv.css full responsive, comienzo de pagvid">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/actividadIndiv.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividadIndiv.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/videoPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/videoPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividadIndiv.html" beforeDir="false" afterPath="$PROJECT_DIR$/actividadIndiv.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/videoPage.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636988961997</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="actividadIndiv.css full responsive, comienzo de pagvid">
+      <created>1637260979482</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637260979482</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -261,7 +267,9 @@
     <MESSAGE value="Poco a poco llegando a responsive" />
     <MESSAGE value="nav responsive a falta del menu desplegable y footer completo movil y tablet (Falta responsive en pc pero es easy)" />
     <MESSAGE value="footer.css ahora responsive tambien para 1024px+" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer.css ahora responsive tambien para 1024px+" />
+    <MESSAGE value="actividadIndiv.css full responsive, comienzo" />
+    <MESSAGE value="actividadIndiv.css full responsive, comienzo de pagvid" />
+    <option name="LAST_COMMIT_MESSAGE" value="actividadIndiv.css full responsive, comienzo de pagvid" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
