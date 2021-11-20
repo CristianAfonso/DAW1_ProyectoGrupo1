@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="videoPage.css modificada para pc">
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="videoPage.css full responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/videoPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/videoPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/videoPage.html" afterDir="false" />
@@ -134,7 +134,8 @@
       <workItem from="1637278359805" duration="1170000" />
       <workItem from="1637326519305" duration="609000" />
       <workItem from="1637348319549" duration="8425000" />
-      <workItem from="1637369387462" duration="3171000" />
+      <workItem from="1637369387462" duration="3644000" />
+      <workItem from="1637378030044" duration="1524000" />
     </task>
     <task id="LOCAL-00001" summary="Improvement a las relaciones entre videoPage.html y actividadIndiv.html">
       <created>1635686081037</created>
@@ -199,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637268995394</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="videoPage.css full responsive">
+      <created>1637372857591</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637372857591</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -280,7 +288,8 @@
     <MESSAGE value="actividadIndiv.css full responsive, comienzo" />
     <MESSAGE value="actividadIndiv.css full responsive, comienzo de pagvid" />
     <MESSAGE value="videoPage.css modificada para pc" />
-    <option name="LAST_COMMIT_MESSAGE" value="videoPage.css modificada para pc" />
+    <MESSAGE value="videoPage.css full responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="videoPage.css full responsive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
