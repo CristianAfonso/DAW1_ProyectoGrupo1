@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="actividadIndiv.css full responsive, comienzo de pagvid">
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="videoPage.css modificada para pc">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estilos/actividadIndiv.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividadIndiv.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/videoPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/videoPage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/videoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/videoPage.html" afterDir="false" />
     </list>
@@ -132,6 +131,10 @@
       <workItem from="1636713784862" duration="7153000" />
       <workItem from="1636976665184" duration="6782000" />
       <workItem from="1636986264477" duration="10155000" />
+      <workItem from="1637278359805" duration="1170000" />
+      <workItem from="1637326519305" duration="609000" />
+      <workItem from="1637348319549" duration="8425000" />
+      <workItem from="1637369387462" duration="3171000" />
     </task>
     <task id="LOCAL-00001" summary="Improvement a las relaciones entre videoPage.html y actividadIndiv.html">
       <created>1635686081037</created>
@@ -189,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637260979482</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="videoPage.css modificada para pc">
+      <created>1637268995394</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637268995394</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -269,7 +279,8 @@
     <MESSAGE value="footer.css ahora responsive tambien para 1024px+" />
     <MESSAGE value="actividadIndiv.css full responsive, comienzo" />
     <MESSAGE value="actividadIndiv.css full responsive, comienzo de pagvid" />
-    <option name="LAST_COMMIT_MESSAGE" value="actividadIndiv.css full responsive, comienzo de pagvid" />
+    <MESSAGE value="videoPage.css modificada para pc" />
+    <option name="LAST_COMMIT_MESSAGE" value="videoPage.css modificada para pc" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
