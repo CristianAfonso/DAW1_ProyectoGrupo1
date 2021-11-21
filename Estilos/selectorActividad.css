@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1;
+    display: grid;
+    overflow-x: hidden;
+}
+#actividad{
+    width: 80vw;
+    display: grid;
+
+    row-gap: 5vw;
+    column-gap: 5vw;
+}
+.actividades{
+    text-align: center;
+    position: center;
+    width: 100%;
+    object-fit: fill;
+    overflow: hidden;
+    padding-top: 5vw;
+}
+.box-img{
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #424242;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.img{
+    flex: 0;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    alignment: center;
+}
+.actividad:hover{
+    opacity: 85%;
+    text-shadow: 1px 1px 2px #424242;
+}
+a.text:link,a.text:visited, a.text:active {
+    text-decoration:none;
+    font-size: x-large;
+    text-transform: Uppercase;
+    color: #424242;
+}
+
+@media screen and (min-width: 1024px) {
+
+    #actividad{
+
+        margin: 10rem auto;
+    }
+    #actividadPresencial{
+        grid-column: 1;
+    }
+    #actividadDistancia{
+        grid-column: 2;
+    }
+}

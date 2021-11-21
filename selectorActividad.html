@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Tipos de Actividades</title>
+    <link rel="stylesheet" type="text/css" href="Estilos/selectorActividad.css">
+    <link rel="stylesheet" href="Estilos/footer.css">
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>$(function () {
+        $('.nav').load("./Templates/nav.html");
+        $('.footer').load("./Templates/footer.html");
+    })
+    </script>
+</head>
+<body>
+    <div class="nav"></div>
+    <div>
+        <div id="actividad">
+            <div id="actividadPresencial" class="actividades"><a href="actividades.html" class="text">Actividades presenciales</a>
+                <a href="actividades.html" class="box-img"><img class="img" src="Imagenes/crossfit.jpeg"></a>
+            </div>
+            <div id="actividadDistancia" class="actividades"><a href="actividades.html" class="text actividades">Actividades no presenciales</a>
+                <a href="actividades.html" class="box-img"><img class="img" src="Imagenes/zumba.jpg"></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>

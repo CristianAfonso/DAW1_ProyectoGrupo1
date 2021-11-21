@@ -4,15 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="videoPage.css full responsive">
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="la página de vídeo ahora soporta tantos vídeos como se le metan">
+      <change afterPath="$PROJECT_DIR$/Estilos/selectorActividad.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selectorActividad.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estilos/videoPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/videoPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/videoPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estilos/actividades.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividades.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/nav.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -78,11 +88,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Estilos" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -94,6 +106,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\can97\WebstormProjects\DAW1Grupo1\Estilos" />
       <recent name="C:\Users\can97\WebstormProjects\DAW1Grupo1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\can97\WebstormProjects\DAW1_ProyectoGrupo1\" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.actividades.html">
@@ -135,7 +150,9 @@
       <workItem from="1637326519305" duration="609000" />
       <workItem from="1637348319549" duration="8425000" />
       <workItem from="1637369387462" duration="3644000" />
-      <workItem from="1637378030044" duration="1524000" />
+      <workItem from="1637378030044" duration="1610000" />
+      <workItem from="1637507514389" duration="3629000" />
+      <workItem from="1637526817694" duration="3587000" />
     </task>
     <task id="LOCAL-00001" summary="Improvement a las relaciones entre videoPage.html y actividadIndiv.html">
       <created>1635686081037</created>
@@ -207,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637372857591</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="la página de vídeo ahora soporta tantos vídeos como se le metan">
+      <created>1637379644159</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1637379644159</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -289,7 +313,8 @@
     <MESSAGE value="actividadIndiv.css full responsive, comienzo de pagvid" />
     <MESSAGE value="videoPage.css modificada para pc" />
     <MESSAGE value="videoPage.css full responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="videoPage.css full responsive" />
+    <MESSAGE value="la página de vídeo ahora soporta tantos vídeos como se le metan" />
+    <option name="LAST_COMMIT_MESSAGE" value="la página de vídeo ahora soporta tantos vídeos como se le metan" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
