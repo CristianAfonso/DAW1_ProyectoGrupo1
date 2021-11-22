@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Nueva Actividad</title>
-  <link rel="stylesheet" href="../Estilos/actividadIndivPresencial.css" type="text/css" media="screen">
+  <link rel="stylesheet" href="../Estilos/crearActividad.css" type="text/css" media="screen">
   <link rel="stylesheet" href="../Estilos/nav.css">
   <link rel="stylesheet" href="../Estilos/footer.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -15,6 +15,39 @@
   </script>
 </head>
 <body>
-
+  <div class="nav"></div>
+  <div id="page">
+    <h1 id="titulo">Nueva actividad</h1>
+    <form>
+      <div id="actividad">
+        <label for="actividadName" id="nameLabel">Nombre de la actividad:</label>
+        <input type="text" id="actividadName" name="actividadName"><br>
+        <label for="tipoActividad" id="actividadLabel">Seleccione el tipo de actividad:</label>
+        <div id="tipoActividad">
+          <input type="radio" id="presencial" name="actividadTipo" value="presencial">
+          <label for="presencial">Presencial</label><br>
+          <input type="radio" id="nopresencial" name="actividadTipo" value="nopresencial">
+          <label for="nopresencial">No presencial</label><br>
+        </div>
+        <label for="userPassword" id="passwordLabel">Contraseña:</label>
+        <input type="password" id="userPassword" name="userPassword"><br>
+        <label for="repeatPassword" id="repeatLabel">Repita la contraseña:</label>
+        <input type="password" id="repeatPassword" name="repeatPassword"><br><!-- Tienen que ser iguales obviamente -->
+        <div id="rol">
+          <label for="selectorRol">Seleccione rol del nuevo usuario:</label>
+          <div id="selectorRol">
+            <input type="radio" id="alumnoRol" name="userRol" value="Alumno">
+            <label for="alumnoRol">Alumno</label><br>
+            <input type="radio" id="profesorRol" name="userRol" value="Profesor">
+            <label for="profesorRol">Profesor</label><br>
+            <input type="radio" id="adminRol" name="userRol" value="Administrador">
+            <label for="adminRol">Administrador</label><br>
+          </div>
+        </div>
+      </div>
+      <input type="submit" id="submitButton" value="Crear nueva actividad">
+    </form>
+  </div>
+  <div class="footer"></div>
 </body>
 </html>

@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="actividadIndivPresencial.css responsive">
-      <change afterPath="$PROJECT_DIR$/Estilos/userCreatorAdmin.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crearActividad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crearVideo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/userCreatorAdmin.html" afterDir="false" />
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="admin puede crear usuarios">
+      <change afterPath="$PROJECT_DIR$/Estilos/crearActividad.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crearActividad.html" beforeDir="false" afterPath="$PROJECT_DIR$/crearActividad.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crearVideo.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +154,7 @@
       <workItem from="1637526817694" duration="3654000" />
       <workItem from="1637581656069" duration="7474000" />
       <workItem from="1637589356428" duration="1071000" />
-      <workItem from="1637601822398" duration="4679000" />
+      <workItem from="1637601822398" duration="8804000" />
     </task>
     <task id="LOCAL-00001" summary="Improvement a las relaciones entre videoPage.html y actividadIndiv.html">
       <created>1635686081037</created>
@@ -255,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637590427651</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="admin puede crear usuarios">
+      <created>1637606749652</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1637606749652</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -341,7 +347,8 @@
     <MESSAGE value="Actividades responsive al 100% y creo una nueva pag que es un puente entre explorar y los dos tipos de actividades, presenciales y no presenciales" />
     <MESSAGE value="selector de actividad bien con actividades mejoradas y videoPage terminada (ahora si)" />
     <MESSAGE value="actividadIndivPresencial.css responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="actividadIndivPresencial.css responsive" />
+    <MESSAGE value="admin puede crear usuarios" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin puede crear usuarios" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
