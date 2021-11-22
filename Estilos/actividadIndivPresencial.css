@@ -1,83 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
-
 body {
     margin: 0px;
     padding: 0px;
-    height: auto;
-    width: 100%;
     font-family: 'Roboto', sans-serif;
     background-color: #F1F1F1;
     display: grid;
+    overflow-x: hidden;
+    min-width: 240px;
 }
 #page{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    padding: 0% 0% 3% 0%;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
 }
 #img-container{
-    margin-top: 200px;
-    margin-left: 15%;
     overflow: hidden;
-    position:relative;
-    width: 100%;
-    padding-top: 56.25%;
-    background-color: #F1F1F1;
-    box-shadow: 0px 15px 10px -15px #111;
+    height: auto;
 }
-.descripcion{
+#descripcion{
     font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    max-height: 15rem;
     color: #424242;
-    width: 1280px;
-    margin-left: 15%;
+    overflow: no-content;
+    text-overflow: ellipsis;
+    text-justify: auto;
+    text-align: justify;
 }
 #contenedor{
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 15%;
-    height: 60%;
-    width: 500px;
-    overflow: auto;
-
+    grid-auto-rows: auto minmax(0,1rem) auto;
+    overflow-y: auto;
+    height: 100%;
+    width: auto;
 }
 #accesovideo{
+    height: auto;
+    width: auto;
     background-color: #F1F1F1;
-    color: #424242;
-    height: 150px;
-    font-family: 'Oswald', sans-serif;
-    font-size: small;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(8, 12.5%);
+    overflow: hidden;
+    margin: auto;
 }
 
 .desc-vid{
-    height: 115px;
-    width: 250px;
+    grid-column-start: 10;
+    grid-column-end: 19;
+    grid-row-start: 2;
+    grid-row-end: 8;
     font-family: 'Oswald', sans-serif;
-    font-weight: bold;
+    font-size: 2vw;
+    text-align: left;
     color: #424242;
-    margin: 0px 0px 15px 15px;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
-.image{
-    height: 108px;
-    width: 108px;
+#image{
+    grid-column-start:2;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 8;
     overflow: hidden;
-    border-style: solid;
-    border-color: #1b1b1b;
     background-repeat: no-repeat;
-    margin: 15px auto 15px 15px;
-    grid-column: 1;
+    z-index: 0;
 }
-.responsive-iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+#duration{
+    text-align: right;
+    background-color: #424242;
+    color: #F1F1F1;
+    z-index: 1;
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 #actPresData{
     font-family: 'Oswald', sans-serif;
@@ -87,22 +83,31 @@ body {
     height: 20px;
     padding-top: 0;
 }
+.responsive-iframe{
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .orange-box{
-    width:9%;
-    height: 4%;
-    background-color: #E03315;
-    position: absolute;
-    margin-top: 42%;
-    margin-left: 19.6%;
-    font-family: 'Oswald', sans-serif;
-    font-weight: bold;
-    color: #F1F1F1;
     text-align: center;
-    font-size: 30px;
-    padding: 15px;
+    margin: auto;
+    padding: 1vw 0 1vw 0;
+    background-color: #E03315;
     filter: drop-shadow(5px 3px 3px #424242);
     text-shadow: 1px 1px #424242;
     transition-duration: 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    color: #F1F1F1;
+    font-size: 5vw;
 }
 table{
     border-collapse: collapse;
@@ -120,20 +125,116 @@ th,td {
     height: 30px;
     text-align: center;
 }
-
-#accesovideo:hover{
-    background-color: #d1d1d1;
-}
-.orange-box:hover {
-    background-color: #F1F1F1;
-    color: #E03315;
-    border-color: #E03315;
-    border-style: solid;
-}
 a:link, a:visited, a:active {
     text-decoration:none;
 }
-td:hover {
-    background-color: #1b1b1b;
-    color: #E03315;
+
+@media screen and (min-width: 1024px) {
+    #page{
+        margin: 10rem  auto auto auto;
+        display: grid;
+        grid-template-columns: repeat(16, 5vw);
+        grid-template-rows: repeat(6, 6vw);
+        row-gap: 2rem;
+        overflow: hidden;
+    }
+    #accesovideo{
+        width: 90%;
+        margin: auto;
+    }
+    #img-container{
+        grid-column-start: 1;
+        grid-column-end: 10;
+        grid-row-start: 1;
+        grid-row-end: 5;
+        overflow: hidden;
+    }
+
+    #descripcion{
+        grid-column-start: 1;
+        grid-column-end: 10 ;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        padding-top: 3rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: #424242;
+    }
+    #contenedor{
+        grid-column-start: 11;
+        grid-column-end: 17;
+        grid-row-start: 1;
+        grid-row-end: 5;
+    }
+    .desc-vid{
+        font-size: 1vw;
+    }
+    .orange-box {
+        grid-column-start: 12;
+        grid-column-end: 16;
+        grid-row: 5;
+        width: 100%;
+        margin-top: 3rem;
+        height: 50%;
+        font-size: 2vw;
+    }
+
+    #accesovideo:hover{
+        background-color: #d1d1d1;
+        box-shadow: 0rem 2rem 1rem -2rem #111;
+    }
+    .orange-box:hover {
+        background-color: #F1F1F1;
+        border-color: #E03315;
+        border-style: solid;
+        cursor: pointer;
+        color: #E03315;
+    }
+    td:hover {
+        background-color: #1b1b1b;
+        color: #E03315;
+    }
+
+}
+@media screen and (max-width: 1023px){
+    #page{
+        width: 80%;
+        display: inline-grid;
+        grid-auto-rows: auto minmax(0, 10rem) auto;
+        row-gap: 3rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 8rem auto 8rem auto;
+    }
+    #img-container{
+        grid-row:1;
+    }
+
+    #descripcion{
+        grid-row: 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: #424242;
+    }
+    #contenedor{
+        grid-row: 3;
+        overflow-y: visible;
+    }
+    #accesovideo{
+        border-radius: 3vw;
+        border: #E1E1E1 solid;
+        background: #E1E1E1;
+        width: 90%;
+        margin: auto;
+    }
+    .orange-box {
+        margin-top: 15rem;
+        grid-row: 7;
+        width: 100%;
+        height: 25%;
+        font-size: 2vw;
+        border-radius: 3vw;
+    }
+
 }
