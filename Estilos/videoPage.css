@@ -240,9 +240,10 @@ a:link, a:visited, a:active {
     }
     #contenedor{
         grid-row:4;
-        margin: auto auto 0 auto;
+        margin: 5vw auto 0 auto;
         width: 100%;
         height: auto;
+        grid-auto-rows: 30vw ;
     }
     .accesovideo{
         padding: 1vw 10vw 1vw 10vw;

@@ -10,19 +10,18 @@ body{
     overflow-x: hidden;
 }
 #actividad{
-    width: 80vw;
-    display: grid;
-
+    width:80%;
     row-gap: 5vw;
-    column-gap: 5vw;
+    column-gap: 20%;
+    overflow: hidden;
 }
 .actividades{
     text-align: center;
     position: center;
     width: 100%;
     object-fit: fill;
-    overflow: hidden;
     padding-top: 5vw;
+    overflow: hidden;
 }
 .box-img{
     width: auto;
@@ -44,27 +43,61 @@ body{
     object-fit: cover;
     alignment: center;
 }
-.actividad:hover{
-    opacity: 85%;
-    text-shadow: 1px 1px 2px #424242;
-}
+
 a.text:link,a.text:visited, a.text:active {
     text-decoration:none;
-    font-size: x-large;
     text-transform: Uppercase;
     color: #424242;
 }
 
 @media screen and (min-width: 1024px) {
-
     #actividad{
-
         margin: 10rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        grid-auto-rows: 25vw;
     }
     #actividadPresencial{
         grid-column: 1;
     }
     #actividadDistancia{
         grid-column: 2;
+    }
+    a{
+        font-size: min(2.5vw,2rem);
+    }
+    .actividades:hover{
+        opacity: 85%;
+        text-shadow: 1px 1px 2px #424242;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #actividad{
+        margin: 10rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        grid-auto-rows: 25vw;
+    }
+    #actividadPresencial{
+        grid-column: 1;
+    }
+    #actividadDistancia{
+        grid-column: 2;
+    }
+    a{
+        font-size: min(2.5vw,2rem);
+    }
+}
+@media screen and (max-width: 767px) {
+    #actividad {
+        width:70%;
+        margin: 10rem auto;
+        display: grid;
+        grid-auto-rows: 60vw;
+        row-gap: 10vw;
+        overflow: hidden;
+    }
+    a{
+        font-size: 2rem;
     }
 }

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="la página de vídeo ahora soporta tantos vídeos como se le metan">
-      <change afterPath="$PROJECT_DIR$/Estilos/selectorActividad.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selectorActividad.html" afterDir="false" />
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="Actividades responsive al 100% y creo una nueva pag que es un puente entre explorar y los dos tipos de actividades, presenciales y no presenciales">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estilos/actividades.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividades.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/nav.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estilos/selectorActividad.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/selectorActividad.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Estilos/videoPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/videoPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actividades.html" beforeDir="false" afterPath="$PROJECT_DIR$/actividades.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selectorActividad.html" beforeDir="false" afterPath="$PROJECT_DIR$/selectorActividad.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +152,8 @@
       <workItem from="1637369387462" duration="3644000" />
       <workItem from="1637378030044" duration="1610000" />
       <workItem from="1637507514389" duration="3629000" />
-      <workItem from="1637526817694" duration="3587000" />
+      <workItem from="1637526817694" duration="3654000" />
+      <workItem from="1637581656069" duration="4389000" />
     </task>
     <task id="LOCAL-00001" summary="Improvement a las relaciones entre videoPage.html y actividadIndiv.html">
       <created>1635686081037</created>
@@ -231,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637379644159</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Actividades responsive al 100% y creo una nueva pag que es un puente entre explorar y los dos tipos de actividades, presenciales y no presenciales">
+      <created>1637531401783</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1637531401783</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -314,7 +322,8 @@
     <MESSAGE value="videoPage.css modificada para pc" />
     <MESSAGE value="videoPage.css full responsive" />
     <MESSAGE value="la página de vídeo ahora soporta tantos vídeos como se le metan" />
-    <option name="LAST_COMMIT_MESSAGE" value="la página de vídeo ahora soporta tantos vídeos como se le metan" />
+    <MESSAGE value="Actividades responsive al 100% y creo una nueva pag que es un puente entre explorar y los dos tipos de actividades, presenciales y no presenciales" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actividades responsive al 100% y creo una nueva pag que es un puente entre explorar y los dos tipos de actividades, presenciales y no presenciales" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
