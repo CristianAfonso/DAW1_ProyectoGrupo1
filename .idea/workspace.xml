@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="selector de actividad bien con actividades mejoradas y videoPage terminada (ahora si)">
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="actividadIndivPresencial.css responsive">
+      <change afterPath="$PROJECT_DIR$/Estilos/userCreatorAdmin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crearActividad.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/crearVideo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userCreatorAdmin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Estilos/actividadIndivPresencial.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/actividadIndivPresencial.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Templates/nav.html" beforeDir="false" afterPath="$PROJECT_DIR$/Templates/nav.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/actividadIndivPresencial.html" beforeDir="false" afterPath="$PROJECT_DIR$/actividadIndivPresencial.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,8 @@
       <workItem from="1637507514389" duration="3629000" />
       <workItem from="1637526817694" duration="3654000" />
       <workItem from="1637581656069" duration="7474000" />
-      <workItem from="1637589356428" duration="1016000" />
+      <workItem from="1637589356428" duration="1071000" />
+      <workItem from="1637601822398" duration="4679000" />
     </task>
     <task id="LOCAL-00001" summary="Improvement a las relaciones entre videoPage.html y actividadIndiv.html">
       <created>1635686081037</created>
@@ -246,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637586294059</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="actividadIndivPresencial.css responsive">
+      <created>1637590427651</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1637590427651</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -331,7 +340,8 @@
     <MESSAGE value="la página de vídeo ahora soporta tantos vídeos como se le metan" />
     <MESSAGE value="Actividades responsive al 100% y creo una nueva pag que es un puente entre explorar y los dos tipos de actividades, presenciales y no presenciales" />
     <MESSAGE value="selector de actividad bien con actividades mejoradas y videoPage terminada (ahora si)" />
-    <option name="LAST_COMMIT_MESSAGE" value="selector de actividad bien con actividades mejoradas y videoPage terminada (ahora si)" />
+    <MESSAGE value="actividadIndivPresencial.css responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="actividadIndivPresencial.css responsive" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
