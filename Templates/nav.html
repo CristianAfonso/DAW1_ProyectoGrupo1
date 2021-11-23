@@ -7,18 +7,24 @@
         <a class="trext" href="login.html" id="cuarto">LOGIN</a>
         <a class="trext" href="register.html" id="quinto">REGISTRATE</a>
     </div>
-    <button id="menu"><img class="responsive-iframe" src="./Imagenes/menuHamburguesa.png" class="responsive-iframe"></button>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+    <div id="menuLinks">
+        <a class="trext" href="selectorActividad.html" id="primeroMenu">EXPLORAR</a>
+        <a class="trext" href="abonos.html" id="segundoMenu">ABÓNATE</a>
+        <a class="trext" href="contacto.html" id="terceroMenu">CONTACTANOS</a>
+        <a class="trext" href="login.html" id="cuartoMenu">LOGIN</a>
+        <a class="trext" href="register.html" id="quintoMenu">REGISTRATE</a>
+    </div>
+    <a id="menu" href="javascript:void(0);" onclick="menuDesplegable()"><img class="responsive-iframe" src="./Imagenes/menuHamburguesa.png" class="responsive-iframe"></a>
+
     <script>
-        function myFunction() {
-            var x = document.getElementById("navLinks");
-            if (x.style.display === "block") {
-                x.style.display = "none";
-            } else {
-                x.style.display = "block";
-            }
+        function menuDesplegable() {
+            var x = document.getElementById("menuLinks");
+                if (x.style.display === "grid") {
+                        x.style.display = "none";
+                } else {
+                    x.style.display = "grid";
+                }
         }
+
     </script>
 </nav>
