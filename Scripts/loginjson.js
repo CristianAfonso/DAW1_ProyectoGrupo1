@@ -263,6 +263,9 @@ document.querySelector("button").addEventListener('click', function(e) {
 
             // envia un mensaje al cliente de que el inicio de sesión fue exitoso
             alert('Ha iniciado sesion como ' + user.username + '.');
+
+            // redirecciona a la pagina de perfil
+            window.location.href="perfil.html";
         } else {
             // en caso contrario solo restablece el campo de entrada de contraseña
             password_element.value = '';
