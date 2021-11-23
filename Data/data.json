@@ -1,0 +1,111 @@
+
+[
+  {
+    "Titulo": "Crosfit",
+    "Imagen": "Imagenes/1 1.png",
+    "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
+    "Plazas": "12/25",
+    "Monitores": ["Pepe Manuel González Santana ","Mónica Raquel Jiménez Díaz"],
+    "Duracion": "Duración Aproximada: 45 minutos",
+    "Horario": [
+      ["Horario", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+      ["16:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["17:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["18:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
+    ],
+    "Video": "urlAleatoria",
+    "Link_act": "actividadIndiv.html",
+    "Link_img": "Imagenes/crossfit.jpeg"
+  },
+  {
+    "Titulo": "Pilates",
+    "Imagen": "Imagenes/5 1.png",
+    "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
+    "Plazas": "12/25",
+    "Monitores": ["Pepe Manuel González Santana ","Mónica Raquel Jiménez Díaz"],
+    "Duracion": "Duración Aproximada: 45 minutos",
+    "Horario": [
+      ["Horario", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+      ["16:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["17:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["18:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
+    ],
+    "Video": "urlAleatoria",
+    "Link_act": "actividadIndiv.html",
+    "Link_img": "Imagenes/zumba.jpg"
+  },
+  {
+    "Titulo": "Zumba",
+    "Imagen": "Imagenes/8 1.png",
+    "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
+    "Plazas": "12/25",
+    "Monitores": ["Pepe Manuel González Santana ","Mónica Raquel Jiménez Díaz"],
+    "Duracion": "Duración Aproximada: 45 minutos",
+    "Horario": [
+      ["Horario", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+      ["16:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["17:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["18:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
+    ],
+    "Video": "urlAleatoria",
+    "Link_act": "actividadIndiv.html",
+    "Link_img": "Imagenes/yoga.jpg"
+  },
+  {
+    "Titulo": "Yoga",
+    "Imagen": "Imagenes/8 1.png",
+    "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
+    "Plazas": "12/25",
+    "Monitores": ["Pepe Manuel González Santana ","Mónica Raquel Jiménez Díaz"],
+    "Duracion": "Duración Aproximada: 45 minutos",
+    "Horario": [
+      ["Horario", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+      ["16:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["17:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["18:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
+    ],
+    "Video": "urlAleatoria",
+    "Link_act": "actividadIndiv.html",
+    "Link_img": "Imagenes/yoga.jpg"
+  },
+  {
+    "Titulo": "Crosfit",
+    "Imagen": "Imagenes/1 1.png",
+    "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
+    "Plazas": "12/25",
+    "Monitores": ["Pepe Manuel González Santana ","Mónica Raquel Jiménez Díaz"],
+    "Duracion": "Duración Aproximada: 45 minutos",
+    "Horario": [
+      ["Horario", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+      ["16:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["17:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["18:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
+    ],
+    "Video": "urlAleatoria",
+    "Link_act": "actividadIndiv.html",
+    "Link_img": "Imagenes/crossfit.jpeg"
+  },
+  {
+    "Titulo": "Zumba",
+    "Imagen": "Imagenes/8 1.png",
+    "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
+    "Plazas": "12/25",
+    "Monitores": ["Pepe Manuel González Santana ","Mónica Raquel Jiménez Díaz"],
+    "Duracion": "Duración Aproximada: 45 minutos",
+    "Horario": [
+      ["Horario", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes"],
+      ["16:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["17:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["18:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"],
+      ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
+    ],
+    "Video": "urlAleatoria",
+    "Link_act": "actividadIndiv.html",
+    "Link_img": "Imagenes/zumba.jpg"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "ID": 1,
+      "Name": "Tigotan",
+      "Surname": "Jimenez Quintana",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "Password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Basico"
+    },
+    {
+      "ID": 2,
+      "Name": "Tigotan",
+      "Surname": "Jimenez Quintana",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "Password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Basico"
+    },
+    {
+      "ID": 3,
+      "Name": "Tigotan",
+      "Surname": "Jimenez Quintana",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "Password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Basico"
+    },
+    {
+      "ID": 4,
+      "Name": "Tigotan",
+      "Surname": "Jimenez Quintana",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "Password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Basico"
+    },
+    {
+      "ID": 5,
+      "Name": "Tigotan",
+      "Surname": "Jimenez Quintana",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "Password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Basico"
+    },
+    {
+      "ID": 6,
+      "Name": "Tigotan",
+      "Surname": "Jimenez Quintana",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "Password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Basico"
+    }
+  ]
+}
