@@ -3,23 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Actividad X</title>
-    <link rel="stylesheet" href="../Estilos/actividadIndiv.css" type="text/css" media="screen">
-    <link rel="stylesheet" href="../Estilos/nav.css">
-    <link rel="stylesheet" href="../Estilos/footer.css">
+    <link rel="stylesheet" href="Estilos/actividadIndiv.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <link rel="stylesheet" href="Estilos/footer.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
         $(function () {
-            $('.nav').load("../Templates/nav.html");
-            $('.footer').load("../Templates/footer.html");
+            $('.nav').load("Templates/nav.html");
+            $('.footer').load("Templates/footer.html");
         });
     </script>
 </head>
 <body>
     <div class="nav"></div>
     <div id="page">
-        <div>
             <div id="img-container">
-                <img class="responsive-iframe" src="../Imagenes/crossfit.jpeg">
+                <img class="responsive-iframe" src="Imagenes/crossfit.jpeg">
             </div>
             <div id="descripcion"><!-- Get from Youtube vid -->
                 <h1>Título</h1>
@@ -30,25 +29,18 @@
                     mollit anim id est laborum."</p>
 
             </div>
-        </div>
-        <div>
-            <div id="contenedorVid">
-                <a href="videoPage.html" id="accesovideo" ><!-- Get from Youtube vid -->
-                    <div >
-                        <img src="Imagenes/abdoPhoto.jpg" class="image">
+            <a href="videoPage.html" id="accesovideo" ><!-- Get from Youtube vid -->
+                <div id="image">
+                    <img src="Imagenes/abdoPhoto.jpg" class="responsive-iframe">
+                    <div id="duration">
+                        <p>Duracion</p>
                     </div>
-                    <div class="desc-vid">
-                        <h1>Título</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex  ea commodo consequa</p>
-                    </div>
-                </a>
-            </div>
-            <div>
-                <form action="videoPage.html">
-                    <a href="videoPage.html" class="orange-box">SIGUIENTE</a>
-                </form>
-            </div>
-        </div>
+                </div>
+                <div class="desc-vid">
+                    <h1>Título</h1>
+                </div>
+            </a>
+            <a href="videoPage.html" class="orange-box">SIGUIENTE</a>
     </div>
     <div class="footer"></div>
 </body>

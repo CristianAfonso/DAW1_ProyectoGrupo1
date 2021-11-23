@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1;
+    display: grid;
+    overflow-x: hidden;
+}
+#actividad{
+    width:80%;
+    row-gap: 5vw;
+    column-gap: 20%;
+    overflow: hidden;
+}
+.actividades{
+    text-align: center;
+    position: center;
+    width: 100%;
+    object-fit: fill;
+    padding-top: 5vw;
+    overflow: hidden;
+}
+.box-img{
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    color: #424242;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}
+.img{
+    flex: 0;
+    width: auto;
+    height: 100%;
+    object-fit: cover;
+    alignment: center;
+}
+
+a.text:link,a.text:visited, a.text:active {
+    text-decoration:none;
+    text-transform: Uppercase;
+    color: #424242;
+}
+
+@media screen and (min-width: 1024px) {
+    #actividad{
+        margin: 10rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        grid-auto-rows: 25vw;
+    }
+    #actividadPresencial{
+        grid-column: 1;
+    }
+    #actividadDistancia{
+        grid-column: 2;
+    }
+    a{
+        font-size: min(2.5vw,2rem);
+    }
+    .actividades:hover{
+        opacity: 85%;
+        text-shadow: 1px 1px 2px #424242;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    #actividad{
+        margin: 10rem auto;
+        display: grid;
+        grid-template-columns: repeat(2, 40%);
+        grid-auto-rows: 25vw;
+    }
+    #actividadPresencial{
+        grid-column: 1;
+    }
+    #actividadDistancia{
+        grid-column: 2;
+    }
+    a{
+        font-size: min(2.5vw,2rem);
+    }
+}
+@media screen and (max-width: 767px) {
+    #actividad {
+        width:70%;
+        margin: 10rem auto;
+        display: grid;
+        grid-auto-rows: 60vw;
+        row-gap: 10vw;
+        overflow: hidden;
+    }
+    a{
+        font-size: 2rem;
+    }
+}
