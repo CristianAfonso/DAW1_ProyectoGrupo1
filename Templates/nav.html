@@ -1,9 +1,24 @@
-<nav class="navigation contenedorNavigation">
+<nav id="navMenu" class="navigation contenedorNavigation">
     <a href="index.html" id="logo"><img class="responsive-iframe" src="./Imagenes/logo-altafit-sombreado.png" alt=""></a>
-    <a class="trext" href="selectorActividad.html" id="primero">EXPLORAR</a>
-    <a class="trext" href="abonos.html" id="segundo">ABÓNATE</a>
-    <a class="trext" href="contacto.html" id="tercero">CONTACTANOS</a>
-    <a class="trext" href="login.html" id="cuarto">LOGIN</a>
-    <a class="trext" href="register.html" id="quinto">REGISTRATE</a>
+    <div id="navLinks">
+        <a class="trext" href="selectorActividad.html" id="primero">EXPLORAR</a>
+        <a class="trext" href="abonos.html" id="segundo">ABÓNATE</a>
+        <a class="trext" href="contacto.html" id="tercero">CONTACTANOS</a>
+        <a class="trext" href="login.html" id="cuarto">LOGIN</a>
+        <a class="trext" href="register.html" id="quinto">REGISTRATE</a>
+    </div>
     <button id="menu"><img class="responsive-iframe" src="./Imagenes/menuHamburguesa.png" class="responsive-iframe"></button>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("navLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
 </nav>
