@@ -94,10 +94,9 @@ a.text:link,a.text:visited, a.text:active {
         margin: 10rem auto;
         display: grid;
         grid-auto-rows: 60vw;
-        row-gap: 10vw;
         overflow: hidden;
     }
     a{
-        font-size: 2rem;
+        font-size: 4vw;
     }
 }

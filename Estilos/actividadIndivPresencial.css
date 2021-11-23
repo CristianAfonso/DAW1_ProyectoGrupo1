@@ -139,7 +139,7 @@ a:link, a:visited, a:active {
         overflow: hidden;
     }
     #accesovideo{
-        width: 90%;
+        width: 100%;
         margin: auto;
     }
     #img-container{
@@ -201,7 +201,7 @@ a:link, a:visited, a:active {
         width: 80%;
         display: inline-grid;
         grid-auto-rows: auto minmax(0, 10rem) auto;
-        row-gap: 3rem;
+        row-gap: 4rem;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -225,16 +225,63 @@ a:link, a:visited, a:active {
         border-radius: 3vw;
         border: #E1E1E1 solid;
         background: #E1E1E1;
-        width: 90%;
+        width: 75%;
         margin: auto;
     }
+    .desc-vid{
+        font-size: 1.5vw;
+    }
     .orange-box {
-        margin-top: 15rem;
+        margin-top: 10rem;
         grid-row: 7;
-        width: 100%;
+        width: 75%;
         height: 25%;
         font-size: 2vw;
         border-radius: 3vw;
     }
+}
+@media screen and (max-width: 767px){
+    #page{
+        width: 80%;
+        display: inline-grid;
+        grid-auto-rows: auto minmax(0, 10rem) auto;
+        row-gap: 4rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 8rem auto 8rem auto;
+    }
+    #img-container{
+        grid-row:1;
+    }
 
+    #descripcion{
+        grid-row: 2;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1rem;
+        color: #424242;
+    }
+    #contenedor{
+        margin-top: 2rem;
+        grid-row: 3;
+        overflow-y: visible;
+    }
+    #accesovideo{
+        border-radius: 3vw;
+        border: #E1E1E1 solid;
+        background: #E1E1E1;
+        width: 100%;
+        margin: auto;
+    }
+    .desc-vid{
+        font-size: 3vw;
+    }
+    .orange-box {
+        margin-top: 10rem;
+        grid-row: 7;
+        width: 100%;
+        height: 25%;
+        font-size: 5vw;
+        border-radius: 4vw;
+    }
 }

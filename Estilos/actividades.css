@@ -50,15 +50,11 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.actividad:hover{
-    opacity: 85%;
-    text-shadow: 1px 1px 2px #424242;
-}
 a.actividad:link,a.actividad:visited, a.actividad:active {
     text-decoration:none;
-    font-size: x-large;
     text-transform: Uppercase;
     color: #424242;
+    font-size: min(2.5vw,2rem);
 }
 @media screen and (min-width: 1024px){
     #actividades{
@@ -92,18 +88,23 @@ a.actividad:link,a.actividad:visited, a.actividad:active {
         grid-column:3;
         grid-row:2;
     }
+    .actividad:hover{
+        opacity: 85%;
+        text-shadow: 1px 1px 2px #424242;
+    }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
     #actividades {
         display: grid;
-        grid-template-columns: repeat(2, 40vw);
-        grid-template-rows: repeat(3, 35vw);
+        grid-template-columns: repeat(2, 40%);
+        grid-auto-rows: 25vw;
         column-gap: 10vw;
         row-gap: 5vw;
         overflow: hidden;
         align-items: stretch;
         position: center;
-        padding: 0 10% 0 0;
+        margin: 10rem auto;
+
     }
 
     #actividad1 {
@@ -138,12 +139,16 @@ a.actividad:link,a.actividad:visited, a.actividad:active {
 }
     @media screen and (max-width: 767px) {
         #actividades {
-            margin-left: 10vw;
-            display: inline-grid;
-            grid-auto-rows: 66vw;
+            width:70%;
+            margin: 10rem auto;
+            display: grid;
+            grid-auto-rows: 60vw;
             row-gap: 5vw;
+            overflow: hidden;
         }
-
+        a.actividad:link,a.actividad:visited, a.actividad:active {
+            font-size: 4vw;
+        }
     }
 
 
