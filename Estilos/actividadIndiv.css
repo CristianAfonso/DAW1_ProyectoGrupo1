@@ -166,7 +166,7 @@ a:link, a:visited, a:active {
         justify-content: center;
         align-items: center;
         text-align: center;
-        margin: 15rem  auto 7rem auto;
+        margin: 20rem  auto 3rem auto;
     }
     #descripcion{
         grid-row: 4;
@@ -195,7 +195,7 @@ a:link, a:visited, a:active {
         display: inline-grid;
         grid-template-rows: repeat(8, 8vw);
         row-gap: 3rem;
-        margin: 45vw  auto 7rem auto;
+        margin: 15rem  auto 5rem auto;
     }
 
     #descripcion{
