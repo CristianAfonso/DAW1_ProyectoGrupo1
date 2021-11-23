@@ -1,8 +1,3 @@
-var path = window.location.pathname;
-var page = path.split("/").pop();
-page = page.split('.').shift();
-
-
 
 $(document).ready(function(){
     $.getJSON("../Data/data.json", function(data){
