@@ -60,7 +60,7 @@ a.actividad:link,a.actividad:visited, a.actividad:active {
     #actividades{
         display: grid;
         grid-template-columns: repeat(3,20vw);
-        grid-template-rows: repeat(2,20vw);
+        grid-auto-rows:20vw;
         column-gap: 10vw;
         row-gap: 5vw;
     }
