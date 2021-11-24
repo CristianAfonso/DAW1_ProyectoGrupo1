@@ -17,8 +17,8 @@
       "Phone": "638144157",
       "Email": "Tigotan.jimenez@gmail.com",
       "Password": "1234",
-      "Actividades": [1,2,3],
-      "Tipo": "Basico"
+      "Actividades": [1,2],
+      "Tipo": "Profesor"
     },
     {
       "ID": 3,
@@ -27,8 +27,8 @@
       "Phone": "638144157",
       "Email": "Tigotan.jimenez@gmail.com",
       "Password": "1234",
-      "Actividades": [1,2,3],
-      "Tipo": "Basico"
+      "Actividades": [1,2,3,4,5,6],
+      "Tipo": "Administrador"
     },
     {
       "ID": 4,

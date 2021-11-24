@@ -14,7 +14,7 @@ $(document).ready(function(){
             text: data[0].Titulo
         }).appendTo( "#descripcion" );
         $( "<p/>", {
-            text: data[0].descripcion
+            text: data[0].Descripcion
         }).appendTo( "#descripcion" );
         $( "<a/>", {
             "href": "videoPage.html",

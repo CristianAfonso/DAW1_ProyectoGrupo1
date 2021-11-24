@@ -14,7 +14,7 @@ $(document).ready(function(){
             }).appendTo( "#actividad" + (i+1));
             $( "<a/>", {
                 "class": "box-img",
-                "href": data[i].Link_act,
+                "href": data[i].Link_act + "?idact=" + data[i].Id,
             }).appendTo( "#actividad" + (i+1));
             let imagen = document.getElementsByClassName('box-img')[i];
             $( "<img/>", {
