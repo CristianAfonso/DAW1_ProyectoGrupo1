@@ -1,20 +1,22 @@
 $(document).ready(function(){
     $.getJSON("../Data/data.json", function(data){
+        var queryString = location.search.substring(1);
+        var id = queryString.split("=")
         $( "<div/>", {
             "id": "img-container"
         }).appendTo( "#page" );
         $( "<img/>", {
             "class": "responsive-iframe",
-            "src" : data[0].Link_img
+            "src" : data[id[1]].Link_img
         }).appendTo( '#img-container' );
         $( "<div/>", {
             "id": "descripcion",
         }).appendTo( "#page");
         $( "<h1/>", {
-            text: data[0].Titulo
+            text: data[id[1]].Titulo
         }).appendTo( "#descripcion" );
         $( "<p/>", {
-            text: data[0].Descripcion
+            text: data[id[1]].Descripcion
         }).appendTo( "#descripcion" );
         $( "<a/>", {
             "href": "videoPage.html",
@@ -24,7 +26,7 @@ $(document).ready(function(){
             "id": "image"
         }).appendTo( "#accesovideo" );
         $( "<img/>", {
-            "src": data[1].Link_img,
+            "src": data[id[1]].Link_img,
             "class": "responsive-iframe"
         }).appendTo( "#image" );
         $( "<div/>", {
@@ -37,7 +39,7 @@ $(document).ready(function(){
             "class": "desc-vid"
         }).appendTo( "#accesovideo" );
         $( "<h1/>", {
-            text: data[1].Titulo
+            text: data[id[1]].Titulo
         }).appendTo( ".desc-vid" );
         $( "<a/>", {
             "href": "videoPage.html",
@@ -47,4 +49,4 @@ $(document).ready(function(){
     }).fail(function(){
         console.log("An error has occurred.");
     });
-});
+}); 
