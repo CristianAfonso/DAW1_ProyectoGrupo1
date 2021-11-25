@@ -111,6 +111,11 @@
         grid-row: 1;
         display: none;
     }
+    #septimo{
+        grid-column: 4;
+        grid-row: 1;
+        display: none;
+    }
     #menuLinks{
         visibility: hidden;
         display: none;
@@ -157,7 +162,12 @@
     }
     #sexto{
         grid-column:3;
-        grid-row: 2;
+        grid-row: 3;
+        display: none;
+    }
+    #septimo{
+        grid-column:3;
+        grid-row: 1;
         display: none;
     }
     #menuLinks{
@@ -226,6 +236,10 @@
         display: flex;
     }
     #sextoMenu{
+        grid-row: 5;
+        display: none;
+    }
+    #septimoMenu{
         grid-row: 4;
         display: none;
     }
