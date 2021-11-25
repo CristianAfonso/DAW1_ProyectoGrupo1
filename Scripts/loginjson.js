@@ -4,7 +4,7 @@ var loggedusers = [];
 // el servidor debe manejar todos los datos a continuacion
 // JSON: array de usuarios que contiene todos los usuarios del sistema por ahora
 // en el lado del servidor por ejemplo, esto podría ser una matriz devuelta por una tabla de base de datos MySQL
-var users = [{
+/*var users = [{
     id: 1,
     username: 'user',
     password: 'user',
@@ -19,7 +19,12 @@ var users = [{
     username: 'trainer',
     password: 'trainer',
     type: 'trainer'
-}];
+}];*/
+
+var users;
+fetch('/Data/usuarios.json')
+    .then(res => res.json())
+    .then(data => users = data.users)
 
 //Funcion muy importante que se utilizara para la busqueda de usuario en la base de dato
 /**
