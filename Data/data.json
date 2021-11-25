@@ -1,7 +1,7 @@
 
 [
   {
-    "Id": 1,
+    "Id": 0,
     "Titulo": "Crosfit",
     "Imagen": "Imagenes/1 1.png",
     "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
@@ -16,11 +16,12 @@
       ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
     ],
     "Video": "urlAleatoria",
-    "Link_act": "actividadIndiv.html",
-    "Link_img": "Imagenes/crossfit.jpeg"
+    "Link_act": "actividadIndivPresencial.html",
+    "Link_img": "Imagenes/crossfit.jpeg",
+    "Press": true
   },
   {
-    "Id": 2,
+    "Id": 1,
     "Titulo": "Pilates",
     "Imagen": "Imagenes/5 1.png",
     "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
@@ -35,11 +36,12 @@
       ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
     ],
     "Video": "urlAleatoria",
-    "Link_act": "actividadIndiv.html",
-    "Link_img": "Imagenes/zumba.jpg"
+    "Link_act": "actividadIndivPresencial.html",
+    "Link_img": "Imagenes/zumba.jpg",
+    "Press": true
   },
   {
-    "Id": 3,
+    "Id": 2,
     "Titulo": "Zumba",
     "Imagen": "Imagenes/8 1.png",
     "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
@@ -54,11 +56,12 @@
       ["19:00", "Aula 1-1", "Aula 1-1", "Aula 1-2", "-", "Aula 1-2"]
     ],
     "Video": "urlAleatoria",
-    "Link_act": "actividadIndiv.html",
-    "Link_img": "Imagenes/yoga.jpg"
+    "Link_act": "actividadIndivPresencial.html",
+    "Link_img": "Imagenes/yoga.jpg",
+    "Press": true
   },
   {
-    "Id": 4,
+    "Id": 3,
     "Titulo": "Yoga",
     "Imagen": "Imagenes/8 1.png",
     "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
@@ -74,10 +77,11 @@
     ],
     "Video": "urlAleatoria",
     "Link_act": "actividadIndiv.html",
-    "Link_img": "Imagenes/yoga.jpg"
+    "Link_img": "Imagenes/yoga.jpg",
+    "Press":false
   },
   {
-    "Id": 5,
+    "Id": 4,
     "Titulo": "Crosfit",
     "Imagen": "Imagenes/1 1.png",
     "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
@@ -93,10 +97,11 @@
     ],
     "Video": "urlAleatoria",
     "Link_act": "actividadIndiv.html",
-    "Link_img": "Imagenes/crossfit.jpeg"
+    "Link_img": "Imagenes/crossfit.jpeg",
+    "Press":false
   },
   {
-    "Id": 6,
+    "Id": 5,
     "Titulo": "Zumba",
     "Imagen": "Imagenes/8 1.png",
     "Descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et\n                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex\n                    ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu\n                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt\n                    mollit anim id est laborum",
@@ -112,6 +117,7 @@
     ],
     "Video": "urlAleatoria",
     "Link_act": "actividadIndiv.html",
-    "Link_img": "Imagenes/zumba.jpg"
+    "Link_img": "Imagenes/zumba.jpg",
+    "Press":false
   }
 ]

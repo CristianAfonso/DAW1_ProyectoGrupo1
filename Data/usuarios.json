@@ -1,5 +1,4 @@
-{
-  "users": [
+[
     {
       "ID": 1,
       "Name": "Tigotan",
@@ -60,5 +59,4 @@
       "Actividades": [1,2,3],
       "Tipo": "Basico"
     }
-  ]
-}
+]

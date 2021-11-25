@@ -1,7 +1,7 @@
 $(document).ready(function(){
-    $.getJSON("../Data/data.json", function(data){
-        var queryString = location.search.substring(1);
-        var id = queryString.split("=")
+    $.getJSON("Data/data.json", function(data){
+        let queryString = location.search.substring(1);
+        let id = queryString.split("=")
         $( "<div/>", {
             "id": "img-container"
         }).appendTo( "#page" );
