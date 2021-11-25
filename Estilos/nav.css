@@ -98,13 +98,19 @@
     #cuarto {
         grid-column: 4;
         grid-row: 1;
+        display: flex;
     }
 
     #quinto {
         grid-column: 5;
         grid-row: 1;
+        display: flex;
     }
-
+    #sexto{
+        grid-column:5;
+        grid-row: 1;
+        display: none;
+    }
     #menuLinks{
         visibility: hidden;
         display: none;
@@ -141,11 +147,18 @@
     #cuarto {
         grid-column: 3;
         grid-row: 1;
+        display: flex;
     }
 
     #quinto {
         grid-column: 3;
         grid-row: 3;
+        display: flex;
+    }
+    #sexto{
+        grid-column:3;
+        grid-row: 2;
+        display: none;
     }
     #menuLinks{
         visibility: hidden;
@@ -168,7 +181,7 @@
         background-color: #404040;
         height: 20rem;
         z-index: 1;
-        grid-template-rows: repeat(5, 15%);
+        grid-auto-rows: 15%;
         grid-row-gap: 1rem;
         border-top: #E03315 solid 2px;
         border-bottom: #E03315 solid 2px;
@@ -205,10 +218,16 @@
 
     #cuartoMenu {
         grid-row: 4;
+        display: flex;
     }
 
     #quintoMenu {
         grid-row: 5;
+        display: flex;
+    }
+    #sextoMenu{
+        grid-row: 4;
+        display: none;
     }
 
 }

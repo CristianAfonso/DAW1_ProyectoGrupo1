@@ -1,5 +1,4 @@
-$("#menu").onclick(function menuDesplegable() {
-    console.log("Funciona")
+$("#menu").click(function menuDesplegable() {
     const x = document.getElementById("menuLinks");
     if (x.style.display === "grid") {
         x.style.display = "none";
