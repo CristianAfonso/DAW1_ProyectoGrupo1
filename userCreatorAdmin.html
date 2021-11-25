@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Usuario</title>
+    <link rel="stylesheet" href="Estilos/userCreatorAdmin.css">
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <link rel="stylesheet" href="Estilos/footer.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function () {
+            $('.nav').load("Templates/nav.html");
+            $('.footer').load("Templates/footer.html");
+        });
+    </script>
+</head>
+<body>
+    <div class="nav"></div>
+    <div id="page">
+        <h1 id="titulo">Nuevo usuario</h1>
+        <form>
+            <div  id="user">
+                <label for="userName" id="nameLabel">Nombre de usuario:</label>
+                <input type="text" id="userName" name="userName"><br>
+                <label for="userPassword" id="passwordLabel">Contraseña:</label>
+                <input type="password" id="userPassword" name="userPassword"><br>
+                <label for="repeatPassword" id="repeatLabel">Repita la contraseña:</label>
+                <input type="password" id="repeatPassword" name="repeatPassword"><br><!-- Tienen que ser iguales obviamente -->
+                <div id="rol">
+                    <label for="selectorRol">Seleccione rol del nuevo usuario:</label>
+                    <div id="selectorRol">
+                        <input type="radio" id="alumnoRol" name="userRol" value="Alumno">
+                        <label for="alumnoRol">Alumno</label><br>
+                        <input type="radio" id="profesorRol" name="userRol" value="Profesor">
+                        <label for="profesorRol">Profesor</label><br>
+                        <input type="radio" id="adminRol" name="userRol" value="Administrador">
+                        <label for="adminRol">Administrador</label><br>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" id="submitButton" value="Crear nuevo usuario">
+        </form>
+    </div>
+    <div class="footer"></div>
+</body>
+</html>

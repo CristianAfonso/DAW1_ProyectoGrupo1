@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #F1F1F1;
+    display: grid;
+    overflow-x: hidden;
+    min-width: 240px;
+}
+#page{
+    max-width: 75rem;
+    min-width:20rem;
+    width: 75vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10rem auto 5rem auto;
+    padding:5rem;
+    border: #1b1b1b solid;
+    color: #1b1b1b;
+    background: #d1d1d1;
+}
+#titulo{
+    text-transform: Uppercase;
+}
+#user{
+    margin: auto;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    width:100%;
+    display: grid;
+    grid-template-columns: 20% 30% 50%;
+    grid-column-gap: 3%;
+    grid-template-rows: repeat(4,30%);
+    grid-row-gap: 1rem;
+}
+#nameLabel{
+    grid-column: 1;
+    grid-row: 1;
+}
+#userName{
+    grid-column: 2;
+    grid-row: 1;
+}
+#passwordLabel{
+    grid-column: 1;
+    grid-row: 2;
+}
+#userPassword{
+    grid-column: 2;
+    grid-row: 2;
+}
+#repeatLabel{
+    grid-column: 1;
+    grid-row: 3;
+}
+#repeatPassword{
+    grid-column: 2;
+    grid-row: 3;
+}
+#rol{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+#submitButton{
+    margin-top: 4rem;
+    padding: 2vw;
+}

@@ -63,7 +63,7 @@ a.text:link,a.text:visited, a.text:active {
     #actividadDistancia{
         grid-column: 2;
     }
-    a{
+    a.text:link,a.text:visited, a.text:active{
         font-size: min(2.5vw,2rem);
     }
     .actividades:hover{
@@ -84,7 +84,7 @@ a.text:link,a.text:visited, a.text:active {
     #actividadDistancia{
         grid-column: 2;
     }
-    a{
+    a.text:link,a.text:visited, a.text:active{
         font-size: min(2.5vw,2rem);
     }
 }
@@ -94,10 +94,9 @@ a.text:link,a.text:visited, a.text:active {
         margin: 10rem auto;
         display: grid;
         grid-auto-rows: 60vw;
-        row-gap: 10vw;
         overflow: hidden;
     }
-    a{
-        font-size: 2rem;
+    a.text:link,a.text:visited, a.text:active{
+        font-size: 4vw;
     }
 }
