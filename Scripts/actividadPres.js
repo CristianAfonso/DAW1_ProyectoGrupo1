@@ -1,20 +1,22 @@
 $(document).ready(function(){
     $.getJSON("Data/data.json", function(data){
+        let queryString = location.search.substring(1);
+        let id = queryString.split("=")
         $( "<div/>", {
             "id": "img-container"
         }).appendTo( "#page" );
         $( "<img/>", {
             "class": "responsive-iframe",
-            "src" : data[0].Link_img
+            "src" : data[id[1]].Link_img
         }).appendTo( '#img-container' );
         $( "<div/>", {
             "id": "descripcion",
         }).appendTo( "#page");
         $( "<h1/>", {
-            text: data[0].Titulo
+            text: data[id[1]].Titulo
         }).appendTo( "#descripcion" );
         $( "<p/>", {
-            text: data[0].Descripcion
+            text: data[id[1]].Descripcion
         }).appendTo( "#descripcion" );
         $( "<div/>", {
             id: "contenedor"
@@ -27,7 +29,7 @@ $(document).ready(function(){
             "id": "image"
         }).appendTo( "#accesovideo" );
         $( "<img/>", {
-            "src": data[1].Link_img,
+            "src": data[id[1]].Link_img,
             "class": "responsive-iframe"
         }).appendTo( "#image" );
         $( "<div/>", {
@@ -40,7 +42,7 @@ $(document).ready(function(){
             "class": "desc-vid"
         }).appendTo( "#accesovideo" );
         $( "<h1/>", {
-            text: data[1].Titulo
+            text: data[id[1]].Titulo
         }).appendTo( ".desc-vid" );
         $( "<div/>", {
             "id": "actPresData"
@@ -48,13 +50,13 @@ $(document).ready(function(){
         $( "<h1/>", {
             text: "Nuestros monitores:"
         }).appendTo( "#actPresData" );
-        for(let i = 0; i < data[0].Monitores.length; i++){
+        for(let i = 0; i < data[id[1]].Monitores.length; i++){
             $( "<p/>", {
-                text: data[0].Monitores[i]
+                text: data[id[1]].Monitores[i]
             }).appendTo( "#actPresData" );
         }
         $( "<h1/>", {
-            text: data[0].Plazas
+            text: data[id[1]].Plazas
         }).appendTo( "#actPresData" );
         $( "<h1/>", {
             text: "Horarios:"
@@ -67,12 +69,12 @@ $(document).ready(function(){
             }).appendTo( "table" );
             for(let j = 0; j < 6; j++){
                 $( "<th/>", {
-                    text: data[0].Horario[i][j]
+                    text: data[id[1]].Horario[i][j]
                 }).appendTo( "#fila" + i);
             }   
         }
         $( "<h1/>", {
-            text: data[0].Duracion
+            text: data[id[1]].Duracion
         }).appendTo( "#actPresData" );
         $( "<a/>", {
             "href": "videoPage.html",
