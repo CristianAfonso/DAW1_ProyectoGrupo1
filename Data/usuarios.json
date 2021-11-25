@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "ID": 1,
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "Tigotan",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Usuario"
+    },
+    {
+      "ID": 2,
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "trainer",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "password": "1234",
+      "Actividades": [1,2],
+      "Tipo": "Profesor"
+    },
+    {
+      "ID": 3,
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "admin",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "password": "1234",
+      "Actividades": [1,2,3,4,5,6],
+      "Tipo": "Administrador"
+    },
+    {
+      "ID": 4,
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "pepito",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Usuario"
+    },
+    {
+      "ID": 5,
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "juan",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Usuario"
+    },
+    {
+      "ID": 6,
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "pedro",
+      "Phone": "638144157",
+      "Email": "Tigotan.jimenez@gmail.com",
+      "password": "1234",
+      "Actividades": [1,2,3],
+      "Tipo": "Usuario"
+    }
+  ]
+}
