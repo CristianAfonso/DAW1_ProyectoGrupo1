@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="nav responsive al 100% al fin con el menú funcional">
-      <change afterPath="$PROJECT_DIR$/Script/login-logout.js" afterDir="false" />
+    <list default="true" id="cb47a88c-135d-4774-8ae6-5d3a464674e7" name="Changes" comment="Nav responde correctamente a si se ha seleccionado logged in o no">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Estilos/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/Estilos/nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Script/navBarMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Script/navBarMenu.js" afterDir="false" />
@@ -270,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637686002446</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Nav responde correctamente a si se ha seleccionado logged in o no">
+      <created>1637860999591</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1637860999591</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -359,7 +365,8 @@
     <MESSAGE value="admin puede crear usuarios" />
     <MESSAGE value="empezando creacion de actividad" />
     <MESSAGE value="nav responsive al 100% al fin con el menú funcional" />
-    <option name="LAST_COMMIT_MESSAGE" value="nav responsive al 100% al fin con el menú funcional" />
+    <MESSAGE value="Nav responde correctamente a si se ha seleccionado logged in o no" />
+    <option name="LAST_COMMIT_MESSAGE" value="Nav responde correctamente a si se ha seleccionado logged in o no" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Estilos/contact.css">
