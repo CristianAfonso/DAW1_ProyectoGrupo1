@@ -75,7 +75,6 @@ $(document).ready(function(){
                         text: data[0].Horario[i][j]
                     }).appendTo( "#fila" + i);
                 }
-
             }   
         }
         $( "<h1/>", {
