@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="Estilos/nav.css">
+    <link rel="stylesheet" href="Estilos/footer.css">
     <link rel="stylesheet" href="Estilos/perfil.css">
     <title>Alta fit</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
         $(function () {
             $('.nav').load("./Templates/nav.html");
+            $('.footer').load("./Templates/footer.html");
         });
     </script>
     <meta charset="UTF-8">
@@ -17,16 +19,13 @@
 </head>
 <body>
     <div class="nav"></div>
-    <div id="perf" class="contenedor">
+    <div id="perf">
         <section id="columnIzq">
-            <!-- añadir un hover sobre cada uno de estos objetos con cambio 
-            en el color de la letra y en el area del objeto -->
-            <div id="backIz"></div>
-            <h2 id="izq1">PERFIL</h2>
-            <h2 id="izq2">CONFIGURACIÓN</h2>
-            <h2 id="izq3">MIS ACTIVIDADES</h2>
+            <a id="izq1" href="perfil.html">PERFIL</a>
+            <a id="izq2" href="abonos.html">CONFIGURACIÓN</a>
+            <a id="izq3" href="actividades.html"><!-- Temporalmente va a atctv. !--> MIS ACTIVIDADES</a>
         </section>
-        <section id="pruet">
+        <section id="centerPerf">
             <img src="Imagenes/Rectangle 32.png" alt="" id="fotoPerf">
             <h3 id="nom">TERESA ASENSI NUEZ</h3>
             <h3 id="mail">deydubegni@vusra.com</h3>
@@ -42,10 +41,7 @@
             <img src="Imagenes/8 1.png" alt="" id="act3">
         </section>
         <section id="hor">
-            <h3 id="horAct1">CROSSFIT:</h3>
-            <p id="horAct1P">Lunes, Miércoles y Viernes: 10:30am</p>
-            <h3 id="horAct2">ZUMBA:</h3>
-            <p id="horAct2P">Martes y Jueves: 5:00pm</p>
+            <p>TABLA</p>
         </section>
     </div>
     <div class="footer"></div>

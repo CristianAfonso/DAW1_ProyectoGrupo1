@@ -66,9 +66,16 @@ $(document).ready(function(){
                 id: "fila" + i
             }).appendTo( "table" );
             for(let j = 0; j < 6; j++){
-                $( "<th/>", {
-                    text: data[0].Horario[i][j]
-                }).appendTo( "#fila" + i);
+                if(j==0 || i==0){
+                    $( "<th/>", {
+                        text: data[0].Horario[i][j]
+                    }).appendTo( "#fila" + i);
+                }else{
+                    $( "<td/>", {
+                        text: data[0].Horario[i][j]
+                    }).appendTo( "#fila" + i);
+                }
+
             }   
         }
         $( "<h1/>", {
