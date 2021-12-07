@@ -1,10 +1,12 @@
+import * as ck from "./ControlCookies.mjs";
+
 // almacena las ID de todos los usuarios registrados
 var loggedusers = [];
 
 // el servidor debe manejar todos los datos a continuacion
 // JSON: array de usuarios que contiene todos los usuarios del sistema por ahora
 // en el lado del servidor por ejemplo, esto podría ser una matriz devuelta por una tabla de base de datos MySQL
-var users = [{
+/*var users = [{
     id: 1,
     username: 'user',
     password: 'user',
@@ -19,7 +21,12 @@ var users = [{
     username: 'trainer',
     password: 'trainer',
     type: 'trainer'
-}];
+}];*/
+
+var users;
+fetch('Data/usuarios.json')
+    .then(res => res.json())
+    .then(data => users = data.users)
 
 //Funcion muy importante que se utilizara para la busqueda de usuario en la base de dato
 /**
@@ -53,12 +60,12 @@ function getUserByProperty(key, value, strict, multiple, case_insensitive) {
             if (case_insensitive) {
                 // si el valor especificado es una string
                 if (typeof compare == 'string')
-                    // queremos convertirlo a minúsculas
+                // queremos convertirlo a minúsculas
                     compare = compare.toLowerCase();
 
                 // si el valor especificado es una string
                 if (typeof value == 'string')
-                    // queremos convertirlo a minúsculas
+                // queremos convertirlo a minúsculas
                     value = value.toLowerCase();
             }
 
@@ -117,7 +124,7 @@ function login(username, password) {
 
             // comprueba si el nombre de usuario y la contraseña coinciden
             if (username === user.username && password === user.password)
-                // establecer el valor de 'loggeduser' al valor de la propiedad (user)
+            // establecer el valor de 'loggeduser' al valor de la propiedad (user)
                 loggeduser = user;
         }
 
@@ -156,7 +163,7 @@ function logout(userid) {
         for (var id in loggedusers)
             // ignorar nuestro usuario para cerrar su sesion
             if (id != userid)
-                // ponemos este usuario en la matriz
+            // ponemos este usuario en la matriz
                 temporary[id] = true;
 
         // reemplazamos la matriz 'loggedusers' con nuestra nueva matriz
@@ -192,7 +199,7 @@ function updatelist() {
 
         // comprobar que el elemento existe y si fuera asi cambiar su visibility
         if (list_container_element)
-            // si no hay usuarios iniciados, "ocultar" el elemento, de lo contrario "mostrarlo"
+        // si no hay usuarios iniciados, "ocultar" el elemento, de lo contrario "mostrarlo"
             list_container_element.style.visibility = loggedusers.length === 0 ? 'hidden' : 'visible';
 
         // tomamos el primer nodo hijo con un bucle while
@@ -247,8 +254,8 @@ document.querySelector("button").addEventListener('click', function(e) {
     // verifica si estos elementos devuelven cosas correctas
     if (username_element && password_element) {
         // obtiene los valores de nombre de usuario y contraseña
-        username = username_element.value;
-        password = password_element.value;
+        var username = username_element.value;
+        var password = password_element.value;
 
         // ejecuta la función 'login' con el nombre de usuario y la contraseña del cliente
         var user = login(username, password);
@@ -260,6 +267,8 @@ document.querySelector("button").addEventListener('click', function(e) {
 
             // restablece el campo de entrada de contraseña
             password_element.value = '';
+
+            ck.setCookie("username", username);
 
             // envia un mensaje al cliente de que el inicio de sesión fue exitoso
             alert('Ha iniciado sesion como ' + user.username + '.');
