@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>Perfil</title>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="Estilos/nav.css">
     <link rel="stylesheet" href="Estilos/footer.css">
     <link rel="stylesheet" href="Estilos/perfil.css">
     <title>Alta fit</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script>
         $(function () {
@@ -12,18 +15,15 @@
             $('.footer').load("./Templates/footer.html");
         });
     </script>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil</title>
 </head>
 <body>
     <div class="nav"></div>
     <div id="perf">
         <section id="columnIzq">
-            <div href="perfil.html"><button class="colizq">PERFIL</button></div>
-            <a class="colizq" href="abonos.html">CONFIGURACIÓN</a>
-            <a class="colizq" href="actividades.html"><!-- Temporalmente va a actv. !-->MIS ACTIVIDADES</a>
+            <div><button id="perfil" class="colizq">PERFIL</button></div>
+            <div><button id="conf" class="colizq">CONFIGURACIÓN</button></div>
+            <div><button id="actividades" class="colizq">ACTIVIDADES</button></div>
+            <div><button id="horario" class="colizq">MI HORARIO</button></div>
         </section>
         <section id="centerPerf">
             <img src="Imagenes/Rectangle 32.png" alt="" id="fotoPerf">
@@ -53,3 +53,4 @@
     <div class="footer"></div>
 </body>
 </html>
+<script src="./Scripts/perfilScript.js"></script>
