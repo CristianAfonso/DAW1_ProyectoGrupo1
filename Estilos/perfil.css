@@ -41,12 +41,16 @@ body{
     margin-bottom: 0;
     box-shadow: 0px 15px 10px -15px #111;
 }
-a.colizq:link, a.colizq:visited, a.colizq:active{
+.colizq{
+    border: none;
+    height: auto;
+    width: auto;
     color: #424242;
     font-weight: bold;
     text-decoration:none;
     transition: 0.4s;
 }
+
 h2{
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
