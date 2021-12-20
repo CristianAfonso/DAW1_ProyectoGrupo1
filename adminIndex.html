@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Admin Index</title>
+    <link rel="stylesheet" href="Estilos/adminIndex.css">
+    <link rel="stylesheet" href="Estilos/nav.css">
+    <link rel="stylesheet" href="Estilos/footer.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script>
+        $(function () {
+            $('.nav').load("Templates/nav.html");
+            $('.footer').load("Templates/footer.html");
+        });
+    </script>
 </head>
 <body>
-
+<div class="nav"></div>
+<div id="page">
+    <h1 id="titulo">Menu del Administrador</h1>
+    <button type="button" onclick="location.href='userCreatorAdmin.html'" id="newUser">Nuevo Usuario</button>
+    <button type="button" onclick="location.href='crearActividad.html'"id="newActiv">Nueva Actividad</button>
+    <button type="button" onclick="location.href='userCreatorAdmin.html'"id="editUser">Editar Usuario</button>
+    <button type="button" onclick="location.href='userCreatorAdmin.html'"id="editActiv">Editar Actividad</button>
+    <button type="button" onclick="location.href='userCreatorAdmin.html'"id="modCont">Modificar páguina de contacto</button>
+    <button type="button" onclick="location.href='userCreatorAdmin.html'"id="edAbonos">Editar Abonos</button>
+</div>
+<div class="footer"></div>
 </body>
 </html>
