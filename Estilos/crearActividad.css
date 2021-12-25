@@ -10,15 +10,13 @@ body {
     min-width: 240px;
 }
 #page{
-    max-width: 75rem;
-    min-width:20rem;
     width: 75vw;
-    height: auto;
+    height: 65%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 10rem auto 5rem auto;
-    padding:5rem;
+    margin: 10rem auto 20rem auto;
+    padding:2rem;
     border: #1b1b1b solid;
     color: #1b1b1b;
     background: #d1d1d1;
@@ -32,37 +30,49 @@ body {
     align-items: center;
     text-align: center;
     width:100%;
+    display: inline-grid;
+    grid-auto-rows: 40%;
+    grid-row-gap: 5%;
+}
+#static{
     display: grid;
-    grid-template-columns: 25% 30% 50%;
-    grid-column-gap: 3%;
-    grid-template-rows: repeat(4,30%);
-    grid-row-gap: 1rem;
-}
-#actividadDescription{
-    height: 64px;
-    width: 265px;
-    resize: none;
-}
-#submitButton{
-    margin-top: 4rem;
-    padding: 1vw;
+    grid-template-columns: 20% 35% 35%;
+    column-gap: 3%;
+    grid-row: 1;
+    grid-column: 1/3;
 }
 #noPresencialPart{
-    display:none;
-    grid-auto-columns: 50%;
-    width: 150%
-}
-#youtubeLink{
-    grid-column: 1;
-}
-#youtubeLinkName{
-    grid-column-start: 2;
-    grid-column-end: 4;
+    display:grid;
+    text-align: left;
+    grid-row: 2;
+    grid-column: 1/3;
 }
 #presencialPart{
-    display: grid;
-
+    display: none;
+    text-align: left;
+    grid-row: 2;
+    grid-column: 1/3;
 }
+#imgUploader{
+    grid-column: 3;
+    grid-row: 2;
+    margin-left: 10%;
+    margin-bottom: 35%;
+}
+#tipoActividad{
+    text-align: left;
+}
+#actividadDescription{
+    grid-column: 2;
+    resize: none;
+}
+#youtubeLink{
+    grid-row: 1;
+}
+#youtubeLinkName{
+    grid-row:1;
+}
+
 #Horario{
     text-align: center;
     align-items: center;
@@ -71,4 +81,10 @@ body {
     row-gap: 25%;
     grid-template-columns: repeat(6, 15%);
     grid-template-rows: repeat(5,20%);
+}
+#submitButton{
+    grid-column: 1/4;
+    grid-row: 3;
+    margin-top: 4rem;
+    padding: 1vw;
 }

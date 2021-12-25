@@ -20,26 +20,25 @@
     <h1 id="titulo">Nueva actividad</h1>
     <form>
       <div id="actividad">
-        <label for="actividadName" id="nameLabel">Nombre de la actividad:</label>
-        <input type="text" id="actividadName" name="actividadName">
-        <p>Seleccione la imagen de la actividad:</p>
-        <label for="actividadDescription" id="decriptionLabel">Descripción de la actividad:</label>
-        <textarea id="actividadDescription" name="textarea" rows="10" cols="50"></textarea>
-        <form name="subida-imagenes" type="POST" enctype="multipart/formdata" >
-          <input type="file" name="imagen" />
-        </form>
-        <label for="tipoActividad" id="actividadLabel">Seleccione el tipo de actividad:</label>
-        <div id="tipoActividad">
-          <input type="radio" id="presencial" name="actividadTipo" value="presencial">
-          <label for="presencial">Presencial</label><br>
-          <input type="radio" id="nopresencial" name="actividadTipo" value="nopresencial">
-          <label for="nopresencial">No presencial</label><br>
-        </div><br>
+        <div id="static">
+          <label for="actividadName" id="nameLabel">Nombre de la actividad:</label>
+          <input type="text" id="actividadName" name="actividadName">
+          <p>Seleccione la imagen de la actividad:</p>
+          <label for="actividadDescription" id="decriptionLabel">Descripción de la actividad:</label>
+          <textarea id="actividadDescription" name="textarea" rows="10" cols="50"></textarea>
+          <input id="imgUploader" type="file" name="imagen" >
+          <label for="tipoActividad" id="actividadLabel">Seleccione el tipo de actividad:</label>
+          <div id="tipoActividad">
+            <input type="radio" id="presencial" name="actividadTipo" value="presencial">
+            <label for="presencial">Presencial</label><br>
+            <input type="radio" id="nopresencial" name="actividadTipo" value="nopresencial">
+            <label for="nopresencial">No presencial</label><br>
+          </div><br>
+        </div>
         <div id="noPresencialPart">
           <label for="youtubeLink" id="youtubeLink">Link del video:</label>
           <input type="text" id="youtubeLinkName" name="actividadName"><br>
         </div><br>
-
         <div id="presencialPart">
           <div>
             <label for="plazasPresen" id="plazasMax">Plazas máximas:</label>
@@ -209,10 +208,11 @@
             </select>
           </div><br>
         </div>
+        <input type="submit" id="submitButton" value="Crear nueva actividad">
       </div>
-      <input type="submit" id="submitButton" value="Crear nueva actividad">
     </form>
   </div>
   <div class="footer"></div>
 </body>
 </html>
+<script src="Scripts/createActiv.js"></script>
