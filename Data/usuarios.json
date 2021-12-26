@@ -1,62 +1,64 @@
-[
+{
+  "users": [
     {
       "ID": 1,
-      "Name": "Tigotan",
-      "Surname": "Jimenez Quintana",
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "Tigotan",
       "Phone": "638144157",
       "Email": "Tigotan.jimenez@gmail.com",
-      "Password": "1234",
+      "password": "1234",
       "Actividades": [1,2,3],
-      "Tipo": "Basico"
+      "Tipo": "Usuario"
     },
     {
       "ID": 2,
-      "Name": "Tigotan",
-      "Surname": "Jimenez Quintana",
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "trainer",
       "Phone": "638144157",
       "Email": "Tigotan.jimenez@gmail.com",
-      "Password": "1234",
+      "password": "1234",
       "Actividades": [1,2],
       "Tipo": "Profesor"
     },
     {
       "ID": 3,
-      "Name": "Tigotan",
-      "Surname": "Jimenez Quintana",
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "admin",
       "Phone": "638144157",
       "Email": "Tigotan.jimenez@gmail.com",
-      "Password": "1234",
+      "password": "1234",
       "Actividades": [1,2,3,4,5,6],
       "Tipo": "Administrador"
     },
     {
       "ID": 4,
-      "Name": "Tigotan",
-      "Surname": "Jimenez Quintana",
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "pepito",
       "Phone": "638144157",
       "Email": "Tigotan.jimenez@gmail.com",
-      "Password": "1234",
+      "password": "1234",
       "Actividades": [1,2,3],
-      "Tipo": "Basico"
+      "Tipo": "Usuario"
     },
     {
       "ID": 5,
-      "Name": "Tigotan",
-      "Surname": "Jimenez Quintana",
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "juan",
       "Phone": "638144157",
       "Email": "Tigotan.jimenez@gmail.com",
-      "Password": "1234",
+      "password": "1234",
       "Actividades": [1,2,3],
-      "Tipo": "Basico"
+      "Tipo": "Usuario"
     },
     {
       "ID": 6,
-      "Name": "Tigotan",
-      "Surname": "Jimenez Quintana",
+      "Fullname": "Tigotan Jimenez Quintana",
+      "username": "pedro",
       "Phone": "638144157",
       "Email": "Tigotan.jimenez@gmail.com",
-      "Password": "1234",
+      "password": "1234",
       "Actividades": [1,2,3],
-      "Tipo": "Basico"
+      "Tipo": "Usuario"
     }
-]
+  ]
+}
