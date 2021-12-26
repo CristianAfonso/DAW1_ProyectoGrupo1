@@ -25,44 +25,54 @@ body
 #Name{
     width: 300px;
     height: 30px;
-    border-style:groove;
-    border-radius: 3px;
+    border: none;
+    outline: none;
     padding-left: 8px;
 }
-#Surnname{
+#Username{
     width: 300px;
     height: 30px;
-    border-style:groove;
-    border-radius: 3px;
+    border: none;
+    outline: none;
     padding-left: 8px;
 }
 #Phone{
     width: 300px;
     height: 30px;
-    border-style:groove;
-    border-radius: 3px;
+    border: none;
+    outline: none;
     padding-left: 8px;
 }
 #Email{
     width: 300px;
     height: 30px;
-    border-style:groove;
-    border-radius: 3px;
+    border: none;
+    outline: none;
     padding-left: 8px;
 }
 #Pass{
     width: 300px;
     height: 30px;
-    border-style:groove;
-    border-radius: 3px;
+    border: none;
+    outline: none;
     padding-left: 8px;
 }
 #Pass2{
     width: 300px;
     height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+.input-box{
     border-style:groove;
     border-radius: 3px;
-    padding-left: 8px;
+    margin-bottom: 15px;
+}
+.icon{
+    width: 30px;
+    text-align: center;
+    color: #999;
 }
 .reg{
     width: 90px;
@@ -76,4 +86,26 @@ body
     margin: 0 auto;
     display: block;
 
+}
+.input-box.success{
+    border:2px solid rgb(26, 167, 26);
+}
+.input-box.error{
+    border: 2px solid rgb(228, 29, 22);
+}
+.input-box small{
+    position:absolute;
+    visibility: hidden;
+    color: #e74c3c;
+    font-style: normal;
+    display: block;
+}
+
+@media (max-width: 780px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

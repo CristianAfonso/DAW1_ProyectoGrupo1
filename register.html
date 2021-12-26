@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <title>Register</title>
     <link rel="stylesheet" type="text/css" href="Estilos/register.css">
     <link rel="stylesheet" href="Estilos/footer.css">
@@ -19,21 +21,39 @@
     <div class="left">
     </div>
     <div class="register">
-        <form id="register" method="get" action="register.php">
+        <form class ="form" id="form" method="get" action="register.php">
             <img src="Imagenes/register.png" alt="logo" class="logo">
-            <br><br>
-            <input type="text" name="Name" id="Name" placeholder="Nombre" pattern="[A-Za-z]{4,}">
-            <br><br>
-            <input type="text" name="Surname" id="Surnname" placeholder="Apellidos" pattern="^[a-z ,.'-]+$/i">
-            <br><br>
-            <input type="text" name="Phone" id="Phone" placeholder="Numero de contacto" pattern="[0-9]{9}">
-            <br><br>
-            <input type="text" name="Email" id="Email" placeholder="Correo electronico" pattern="^[a-zA-Z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
-            <br><br>
-            <input type="Password" name="Pass" id="Pass" placeholder="Contrasena" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
-            <br><br>
-            <input type="Password" name="Pass2" id="Pass2" placeholder="Repetir contrasena" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$">
-            <br><br>
+            <div class="input-box">
+                <i class="fas fa-user icon"></i>
+                <input type="text" name="Name" id="Name" placeholder="Nombre y apellido" required>
+                <small>mensaje</small>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-phone-square-alt icon"></i>
+                <input type="text" name="Phone" id="Phone" placeholder="Numero de contacto" required>
+                <small>mensaje</small>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-envelope-square icon"></i>
+                <input type="text" name="Email" id="Email" placeholder="Correo electronico" required>
+                <small>mensaje</small>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-user icon"></i>
+                <input type="text" name="Username" id="Username" placeholder="Usuario" required>
+                <small>mensaje</small>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-lock icon"></i>
+                <input type="Password" name="Pass" id="Pass" placeholder="Contrasena" required>
+                <small>mensaje</small>
+            </div>
+            <div class="input-box">
+                <i class="fas fa-lock icon"></i>
+                <input type="Password" name="Pass2" id="Pass2" placeholder="Repetir contrasena" required>
+                <small>mensaje</small>
+            </div>
+
             <button type="button" class="reg">Crear</button>
             <br><br>
             <p style="text-align:center">
@@ -46,5 +66,5 @@
     <div class="footer"></div>
 </div>
 </body>
-<script src="Scripts/validation.js"></script>
+<script src="Scripts/regvalidation.js"></script>
 </html>

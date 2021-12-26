@@ -32,16 +32,26 @@ body
 #Uname{
     width: 300px;
     height: 30px;
-    border-style:groove;
-    border-radius: 3px;
+    border: none;
+    outline: none;
     padding-left: 8px;
 }
 #Pass{
     width: 300px;
     height: 30px;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+.input-box{
     border-style:groove;
     border-radius: 3px;
-    padding-left: 8px;
+    margin-bottom: 15px;
+}
+.icon{
+    width: 30px;
+    text-align: center;
+    color: #999;
 }
 .log{
     width: 90px;
@@ -62,4 +72,11 @@ span{
 a{
     margin-top: 10px;
 }
+@media (max-width: 780px) {
 
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
